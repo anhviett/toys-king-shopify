@@ -3597,10 +3597,10 @@ details-disclosure > details {
 }
 /* custom collection design */
 .custom-section-selector {
-  background: #FFF7EE;
+  background: #ebc390;
 }
 .card__media {
-  background: #FFF7EE;
+  background: #ebc390;
 }
 .card__media img {
   border-radius: 7px;
@@ -3608,10 +3608,10 @@ details-disclosure > details {
 
 /* custom collection design */
 .custom-section-selector {
-  background: #FFF7EE;
+  background: #ebc390;
 }
 .card__media {
-  background: #FFF7EE;
+  background: #ebc390;
 }
 .card__media img {
   border-radius: 7px;
@@ -3624,7 +3624,7 @@ details-disclosure > details {
   height: 6rem;
   background: var(--clr);
   border-top-left-radius: 50%;
-  background: #FFF7EE;
+  background: #ebc390;
 }
 .unique-container-class .icon:hover .iconBox:hover {
   transform: scale(1.1) !important;
@@ -3638,7 +3638,7 @@ details-disclosure > details {
   width: 1.25rem;
   height: 1.25rem;
   border-bottom-right-radius: 1.25rem;
-  box-shadow: 0.313rem 0.313rem 0 0.313rem #FFF7EE;
+  box-shadow: 0.313rem 0.313rem 0 0.313rem #ebc390;
   text-decoration: none;
 }
 .unique-container-class .icon::after {
@@ -3650,7 +3650,7 @@ details-disclosure > details {
   width: 1.25rem;
   height: 1.25rem;
   border-bottom-right-radius: 1.25rem;
-  box-shadow: 0.313rem 0.313rem 0 0.313rem #FFF7EE;
+  box-shadow: 0.313rem 0.313rem 0 0.313rem #ebc390;
   text-decoration: none;
 }
 .unique-container-class .icon .iconBox {
