@@ -139,48 +139,61 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_cNQVgy": {
-      "type": "multicolumn",
+    "rich_text_CmaxBa": {
+      "type": "rich-text",
       "blocks": {
-        "column_ztmnLY": {
-          "type": "column",
+        "heading_3Cm8YC": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/toys-and-games-natural-2-middle.jpg",
-            "title": "Whispers of laughter, dreams take flight, in a world of toys, imagination ignites.",
-            "text": "",
-            "link_label": "Explore",
-            "link": "shopify://collections/all"
+            "heading": "WE ARE SAFE, healthy, innovative",
+            "heading_size": "h1"
           }
         },
-        "column_9fWRqw": {
-          "type": "column",
+        "text_qPdBmY": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/toys-and-games-natural-1-bottom.jpg",
-            "title": "Creating magical moments for all ages, we are the realm of toys where imagination reigns supreme.",
-            "text": "",
-            "link_label": "Get in touch",
-            "link": "shopify://pages/contact"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": [
-        "column_ztmnLY",
-        "column_9fWRqw"
+        "heading_3Cm8YC",
+        "text_qPdBmY"
       ],
       "settings": {
-        "title": "Trending now",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_WzJrKt": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 72,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -253,7 +266,8 @@
     "slideshow_LeJEXR",
     "rich_text_YFywJi",
     "image_with_text_wL443m",
-    "multicolumn_cNQVgy",
+    "rich_text_CmaxBa",
+    "featured_collection_WzJrKt",
     "featured_collection",
     "rich_text_MTeLtk"
   ]
