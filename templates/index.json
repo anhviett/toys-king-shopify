@@ -176,15 +176,15 @@
         "heading_size": "h1",
         "description": "",
         "show_description": false,
-        "description_style": "uppercase",
+        "description_style": "body",
         "collection": "feature-collection",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-f84fd166-2486-4ffe-825c-6993a9381849",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -195,6 +195,27 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1733501723b62a8bad": {
+      "type": "apps",
+      "blocks": {
+        "lai_product_reviews_lai_home_page_section_7d9gL6": {
+          "type": "shopify://apps/lai-product-reviews/blocks/lai-home-page-section/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
+          "settings": {
+            "type_layout": "choose_layout",
+            "source": "default_layout",
+            "title": "",
+            "background": "#fff",
+            "width_container": ""
+          }
+        }
+      },
+      "block_order": [
+        "lai_product_reviews_lai_home_page_section_7d9gL6"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "featured_collection": {
@@ -268,6 +289,7 @@
     "image_with_text_wL443m",
     "rich_text_CmaxBa",
     "featured_collection_aTJPjg",
+    "1733501723b62a8bad",
     "featured_collection",
     "rich_text_MTeLtk"
   ]
