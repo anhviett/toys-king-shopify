@@ -3663,7 +3663,4 @@ details-disclosure > details {
         box-shadow: unset;
     }
 }
-.product-card-wrapper .card__inner {
-  width: 60%;
-  margin: auto;
-}
+
