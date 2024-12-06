@@ -1,1 +1,213 @@
-{"sections":{"slideshow_LeJEXR":{"type":"slideshow","blocks":{"slide_3Qw3QK":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/product.ai.png","heading":"Trusted by Parents, Loved by Kids","heading_size":"h2","subheading":"","button_label":"Shop now","link":"shopify:\/\/collections\/all","button_style_secondary":false,"box_align":"middle-right","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}}},"block_order":["slide_3Qw3QK"],"settings":{"layout":"full_bleed","slide_height":"large","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"multicolumn_cNQVgy":{"type":"multicolumn","blocks":{"column_ztmnLY":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/toys-and-games-natural-2-middle.jpg","title":"Whispers of laughter, dreams take flight, in a world of toys, imagination ignites.","text":"","link_label":"Explore","link":"shopify:\/\/collections\/all"}},"column_9fWRqw":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/toys-and-games-natural-1-bottom.jpg","title":"Creating magical moments for all ages, we are the realm of toys where imagination reigns supreme.","text":"","link_label":"Get in touch","link":"shopify:\/\/pages\/contact"}}},"block_order":["column_ztmnLY","column_9fWRqw"],"settings":{"title":"Trending now","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":2,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":72,"padding_bottom":36}},"featured_collection":{"type":"featured-collection","custom_css":[],"settings":{"title":"Featured collection","heading_size":"h1","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":15,"columns_desktop":3,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":true,"color_scheme":"background-1","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"1","swipe_on_mobile":false,"padding_top":56,"padding_bottom":0}},"rich_text_MTeLtk":{"type":"rich-text","blocks":{"heading_TChPCC":{"type":"heading","settings":{"heading":"At Toy King, we crown each playtime with enchanting experiences that make childhood unforgettable.","heading_size":"h1"}},"button_aFhHzf":{"type":"button","settings":{"button_label":"","button_link":"shopify:\/\/pages\/contact","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_TChPCC","button_aFhHzf"],"settings":{"desktop_content_position":"center","content_alignment":"left","color_scheme":"background-1","full_width":true,"padding_top":68,"padding_bottom":100}}},"order":["slideshow_LeJEXR","multicolumn_cNQVgy","featured_collection","rich_text_MTeLtk"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_LeJEXR": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_3Qw3QK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/product.ai.png",
+            "heading": "Trusted by Parents, Loved by Kids",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Shop now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_yhXhGY": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_3Qw3QK",
+        "slide_yhXhGY"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_YFywJi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cjTYXU": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHY CHOOSE TOYS KING?",
+            "heading_size": "h2"
+          }
+        },
+        "text_U4jNRQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cjTYXU",
+        "text_U4jNRQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_cNQVgy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ztmnLY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/toys-and-games-natural-2-middle.jpg",
+            "title": "Whispers of laughter, dreams take flight, in a world of toys, imagination ignites.",
+            "text": "",
+            "link_label": "Explore",
+            "link": "shopify://collections/all"
+          }
+        },
+        "column_9fWRqw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/toys-and-games-natural-1-bottom.jpg",
+            "title": "Creating magical moments for all ages, we are the realm of toys where imagination reigns supreme.",
+            "text": "",
+            "link_label": "Get in touch",
+            "link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "column_ztmnLY",
+        "column_9fWRqw"
+      ],
+      "settings": {
+        "title": "Trending now",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 15,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_MTeLtk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TChPCC": {
+          "type": "heading",
+          "settings": {
+            "heading": "At Toy King, we crown each playtime with enchanting experiences that make childhood unforgettable.",
+            "heading_size": "h1"
+          }
+        },
+        "button_aFhHzf": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TChPCC",
+        "button_aFhHzf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "slideshow_LeJEXR",
+    "rich_text_YFywJi",
+    "multicolumn_cNQVgy",
+    "featured_collection",
+    "rich_text_MTeLtk"
+  ]
+}
