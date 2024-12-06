@@ -3658,3 +3658,8 @@ details-disclosure > details {
   color: #fff;
   font-size: 1.5rem;
 }
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+.unique-container-class .animate--hover-3d-lift .card-wrapper:hover .card--card {
+ box-shadow: unset; 
+  }
+}
