@@ -70,7 +70,7 @@
           "type": "heading",
           "settings": {
             "heading": "WHY CHOOSE TOYS KING?",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text_U4jNRQ": {
@@ -137,36 +137,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_CmaxBa": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3Cm8YC": {
-          "type": "heading",
-          "settings": {
-            "heading": "WHY CHOOSE TOYS KING?",
-            "heading_size": "h0"
-          }
-        },
-        "text_qPdBmY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3Cm8YC",
-        "text_qPdBmY"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "1733501723b62a8bad": {
@@ -259,7 +229,6 @@
     "slideshow_LeJEXR",
     "rich_text_YFywJi",
     "image_with_text_wL443m",
-    "rich_text_CmaxBa",
     "1733501723b62a8bad",
     "featured_collection",
     "rich_text_MTeLtk"
