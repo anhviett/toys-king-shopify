@@ -93,6 +93,52 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_wL443m": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9zcARG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>2024 New Arrivals</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_HF4Wx9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Busy Board Collection | Montessori Play | Travel Toys</strong></p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_HH9V36": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9zcARG",
+        "text_HF4Wx9",
+        "button_HH9V36"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_cNQVgy": {
       "type": "multicolumn",
       "blocks": {
@@ -206,6 +252,7 @@
   "order": [
     "slideshow_LeJEXR",
     "rich_text_YFywJi",
+    "image_with_text_wL443m",
     "multicolumn_cNQVgy",
     "featured_collection",
     "rich_text_MTeLtk"
