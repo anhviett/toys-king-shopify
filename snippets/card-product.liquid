@@ -40,7 +40,7 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper product-card-wrapper underline-links-hover">
+  <div class="card-wrapper product-card-wrapper underline-links-hover unique-container-class">
     <div
       class="
         card card--{{ settings.card_style }}
@@ -103,6 +103,11 @@
                   height="{{ card_product.media[1].height }}"
                 >
               {%- endif -%}
+            </div>
+            <div class="icon">
+              <a href="" class="iconBox">
+                <span class="material-symbols-outlined">arrow tét</span>
+              </a>
             </div>
           </div>
         {%- endif -%}
