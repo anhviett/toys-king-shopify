@@ -84,6 +84,9 @@
         "heading_cjTYXU",
         "text_U4jNRQ"
       ],
+      "custom_css": [
+        ".custom-features .feature-item p {font-style: normal}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
