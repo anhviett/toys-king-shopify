@@ -3682,3 +3682,8 @@ h2 {
   font-weight: 600 !important;
 }
 
+/* Rich text */
+.custom-features {
+  display: flex;
+  align-items: stretch;
+}
