@@ -3685,7 +3685,8 @@ h2 {
 /* Rich text */
 .custom-features {
   display: flex;
-  align-items: stretch;
+  align-items: center;
+  justify-content: center;
 }
 .feature-item {
     flex: 0 0 auto;
