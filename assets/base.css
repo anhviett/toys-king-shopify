@@ -3693,3 +3693,6 @@ details-disclosure > details {
     padding-left: 30px;
     max-width: 100%;
 }
+.rich-text__heading {
+  font-weight: 600
+}
