@@ -85,7 +85,8 @@
         "text_U4jNRQ"
       ],
       "custom_css": [
-        ".custom-features .feature-item p {font-weight: 500; font-size: 16px; }"
+        ".custom-features .feature-item p {font-weight: 500; font-size: 16px;}",
+        ".custom-features .feature-item h3 span {font-size: }"
       ],
       "settings": {
         "desktop_content_position": "center",
