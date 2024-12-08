@@ -787,6 +787,8 @@ summary::-webkit-details-marker {
 .title,
 .title-wrapper-with-link {
   margin: 3rem 0 2rem;
+  font-weight: bold;
+  font-family: Quicksand, sans-serif;
 }
 
 .title-wrapper-with-link .title {
