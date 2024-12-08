@@ -15,7 +15,7 @@
         "slide_3Qw3QK": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/product.ai_1_c2dc12ea-767e-447c-a439-4977828eb9fd.png",
+            "image": "shopify://shop_images/product.ai.png",
             "heading": "Trusted by Parents, Loved by Kids",
             "heading_size": "h2",
             "subheading": "",
@@ -54,12 +54,12 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "adapt_image",
         "slider_visual": "counter",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
+        "image_behavior": "ambient",
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
     },
