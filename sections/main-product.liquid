@@ -206,7 +206,7 @@
                       {% assign tag_coll = '/collections/all/' | append: tag %}
                         {{ tag | capitalize | link_to: tag_coll }}
                         {% unless forloop.last %}
-                        ,{% endunless %}
+                      ,{% endunless %}
                     {%- endfor -%}
                   </p>
                 </div>
