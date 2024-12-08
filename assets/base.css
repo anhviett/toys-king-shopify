@@ -3708,3 +3708,64 @@ details-disclosure > details {
 .rich-text__heading {
   font-weight: 600;
 }
+
+@media screen and (max-width: 749px) {
+    #Slider-template--23299000598832__f9232c66-4799-4cbd-a2be-00ee49671cb9::before,
+    #Slider-template--23299000598832__f9232c66-4799-4cbd-a2be-00ee49671cb9 .media::before,
+    #Slider-template--23299000598832__f9232c66-4799-4cbd-a2be-00ee49671cb9:not(.banner--mobile-bottom) .banner__content::before {
+      padding-bottom: 47.03125%;
+      content: '';
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    #Slider-template--23299000598832__f9232c66-4799-4cbd-a2be-00ee49671cb9::before,
+    #Slider-template--23299000598832__f9232c66-4799-4cbd-a2be-00ee49671cb9 .media::before {
+      padding-bottom: 47.03125%;
+      content: '';
+      display: block;
+    }
+  }#Slide-template--23299000598832__f9232c66-4799-4cbd-a2be-00ee49671cb9-1 .banner__media::after {
+          opacity: 1.0;
+        }      
+    #Slide-template--23299000598832__f9232c66-4799-4cbd-a2be-00ee49671cb9-2 .banner__media::after {
+          opacity: 1.0;
+        }      
+    #Slide-template--23299000598832__f9232c66-4799-4cbd-a2be-00ee49671cb9-3 .banner__media::after {
+          opacity: 1.0;
+        }      
+    
+    
+     slideshow-component:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 280px;
+        max-height: 32%;
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: -1px;
+        z-index:2;
+      -webkit-mask-image: url('//dt-kidscool.myshopify.com/cdn/shop/files/slider-cloud-bg.png?v=1682063227&width=2500'),url('//dt-kidscool.myshopify.com/cdn/shop/files/slider-cloud-bg-ligh2t_1.png?v=1682061640&width=2500');
+      -webkit-mask-size: contain;
+      -webkit-mask-position: bottom center;
+      -webkit-mask-repeat: repeat-x;
+       background-color: var(--gradient-base-background-1);
+       pointer-events: none;
+      } 
+/*     @keyframes swell {
+      0%, 100% {
+        transform: scaleX(1);
+      }
+      50% {
+        transform: scaleX(1.01);
+      }
+    } */
+    @media screen and (max-width: 1540px) {
+      slideshow-component:before {height: 220px;}
+    }
+    @media screen and (max-width: 575px) {
+      slideshow-component:before {display: none;}
+    }
