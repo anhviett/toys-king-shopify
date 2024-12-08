@@ -267,6 +267,10 @@ h5,
   word-break: break-word;
 }
 
+a, button, input, span, h4 {
+    transition: all 0.3s ease 0s;
+}
+
 .text-center {
   text-align: center;
 }
