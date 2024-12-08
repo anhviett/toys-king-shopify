@@ -267,6 +267,10 @@ h5,
   word-break: break-word;
 }
 
+.text-center {
+  text-align: center;
+}
+
 p {
   font-family: Lato;
   font-style: normal;
