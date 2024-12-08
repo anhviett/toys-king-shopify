@@ -64,52 +64,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "image_with_text_wL443m": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_9zcARG": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>2024 New Arrivals</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_HF4Wx9": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Busy Board Collection | Montessori Play | Travel Toys</strong></p>",
-            "text_style": "subtitle"
-          }
-        },
-        "button_HH9V36": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_9zcARG",
-        "text_HF4Wx9",
-        "button_HH9V36"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1733501723b62a8bad": {
       "type": "apps",
       "blocks": {
@@ -129,6 +83,34 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "featured_collection_MLX4Wx": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "divider-collection",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -201,8 +183,8 @@
   },
   "order": [
     "slideshow_LeJEXR",
-    "image_with_text_wL443m",
     "1733501723b62a8bad",
+    "featured_collection_MLX4Wx",
     "featured_collection",
     "rich_text_YFywJi"
   ]
