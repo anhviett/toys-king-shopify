@@ -271,7 +271,7 @@ a, button, input, span, h4 {
     transition: all 0.3s ease 0s;
 }
 
-body a, a, body button, button {
+a:hover {
     text-decoration: none !important;
 }
 
