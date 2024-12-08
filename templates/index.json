@@ -179,6 +179,10 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "vertical_tabs": {
+      "type": "vertical_tabs",
+      "settings": {}
     }
   },
   "order": [
@@ -186,6 +190,7 @@
     "1733501723b62a8bad",
     "featured_collection_MLX4Wx",
     "featured_collection",
-    "rich_text_YFywJi"
+    "rich_text_YFywJi",
+    "vertical_tabs"
   ]
 }
