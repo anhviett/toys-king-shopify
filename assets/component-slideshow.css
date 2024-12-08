@@ -210,10 +210,10 @@ slideshow-component:before {
     right: 0;
     bottom: -1px;
     z-index: 2;
-    -webkit-mask-image: url('{{ "slider-cloud-bg.webp" | asset_url }}');
-    -webkit-mask-size: contain;
-    -webkit-mask-position: bottom center;
-    -webkit-mask-repeat: repeat-x;
-    background-color: var(--gradient-base-background-1);
+    background-image: url('{{ "slider-cloud-bg.webp" | asset_url }}');
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    background-color: #fff;
     pointer-events: none;
 }
