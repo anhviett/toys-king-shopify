@@ -197,6 +197,20 @@
                     {{ product.description }}
                   </div>
                 {%- endif -%}
+
+              {%- if product.tags.size > 0 -%}
+                <div class="product-single__tags">
+                  <p>
+                    Tags:
+                    {%- for tag in product.tags -%}
+                      {% assign tag_coll = '/collections/all/' | append: tag %}
+                        {{ tag | capitalize | link_to: tag_coll }}
+                        {% unless forloop.last %}
+                        ,{% endunless %}
+                    {%- endfor -%}
+                  </p>
+                </div>
+              {%- endif -%}
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
