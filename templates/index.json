@@ -15,7 +15,7 @@
         "slide_3Qw3QK": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/product.ai.png",
+            "image": "shopify://shop_images/product.ai_1_c2dc12ea-767e-447c-a439-4977828eb9fd.png",
             "heading": "Trusted by Parents, Loved by Kids",
             "heading_size": "h2",
             "subheading": "",
@@ -133,7 +133,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".card-wrapper .card__content .h5 a {font-size: 16px; font-family: Quicksand, sans-serif; font-weight: 700; color: #253D4E;}"
+        ".card-wrapper .card__content .h5 a {font-size: 16px; font-family: Quicksand, sans-serif; font-weight: 700; color: #253d4e;}"
       ],
       "settings": {
         "title": "Featured collection",
