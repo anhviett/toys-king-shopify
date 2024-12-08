@@ -210,7 +210,7 @@ slideshow-component:before {
     right: 0;
     bottom: -1px;
     z-index: 2;
-    background-image: url('{{ "slider-cloud-bg.webp" | asset_url }}');
+    background-image: url('{{ "slider-cloud-bg.webp" | asset_url }}'), url('{{ "slider-cloud-bg-light2t_1.webp" | asset_url }}');
     background-size: contain;
     background-position: bottom center;
     background-repeat: repeat-x;
