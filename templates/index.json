@@ -133,7 +133,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".card-wrapper .card__content .h5 a {font-size: 16px; font-family: Quicksand, sans-serif; font-weight: 700;}"
+        ".card-wrapper .card__content .h5 a {font-size: 16px; font-family: Quicksand, sans-serif; font-weight: 700; color: #253D4E}"
       ],
       "settings": {
         "title": "Featured collection",
