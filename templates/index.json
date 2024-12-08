@@ -132,7 +132,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        ".card-wrapper .card__content .h5 a {font-size: 18px; font-family: \"Lato\"; font-weight: 500;}"
+      ],
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
