@@ -415,7 +415,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product-item .card__heading a {font-size: 16px; font-family: Quicksand, sans-serif; font-weight: 700; color: #253d4e;}"
+      ".product-item .card__heading a {font-size: 16px; font-family: Quicksand, sans-serif; font-weight: 700; color: #253d4e;}",
+      ".product-item {background-color: #e4f6fe; border-radius: 5px; min-height: 117px;}"
     ]
   }
 }
