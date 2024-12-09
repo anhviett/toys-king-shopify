@@ -1,6 +1,60 @@
+{% comment %}
+  Thêm Isotope CSS và JS vào phần này
+{% endcomment %}
+
+<!-- Thêm CSS cho Isotope -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/isotope/3.0.6/isotope.pkgd.min.css" />
+
+<!-- Thêm JS cho Isotope -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<!-- Mã HTML cho Isotope -->
+<div class="isotope-filters">
+  <button class="filter-button" data-filter="*">Tất cả</button>
+  <button class="filter-button" data-filter=".category1">Danh mục 1</button>
+  <button class="filter-button" data-filter=".category2">Danh mục 2</button>
+  <button class="filter-button" data-filter=".category3">Danh mục 3</button>
+</div>
+
+<div class="isotope-container">
+  {% for product in collections.frontpage.products %}
+    <div class="isotope-item category{{ product.tags | first }}">
+      <div class="product-item">
+        <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+        <h3>{{ product.title }}</h3>
+        <p>{{ product.price | money }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  // Khởi tạo Isotope
+  var iso = new Isotope('.isotope-container', {
+    itemSelector: '.isotope-item',
+    layoutMode: 'fitRows'
+  });
+
+  // Bộ lọc cho các nút
+  var filterButtons = document.querySelectorAll('.filter-button');
+  filterButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      var filterValue = button.getAttribute('data-filter');
+      iso.arrange({ filter: filterValue });
+    });
+  });
+</script>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Isotope Section",
+  "settings": [],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
