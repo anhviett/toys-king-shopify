@@ -180,6 +180,15 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_HxnxQV": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "abcd",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
   },
   "order": [
     "slideshow_LeJEXR",
@@ -187,5 +196,6 @@
     "featured_collection_MLX4Wx",
     "featured_collection",
     "rich_text_YFywJi",
+    "custom_liquid_HxnxQV"
   ]
 }
