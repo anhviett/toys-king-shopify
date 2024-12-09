@@ -419,7 +419,7 @@
       ".product-item {}",
       ".product-item .card__image {border-radius: 5px 5px 0 0; align-items: center; background-color: #e4f6fe; display: flex; overflow: hidden; position: relative; justify-content: center; width: 100%;}",
       ".product-item .card__content {background-color: #e4f6fe; border-radius: 0 0 5px 5px; height: 100%;}",
-      ".product-grid .isotope-item {padding-top: 35px; padding-botom: 35px;}"
+      ".product-grid .isotope-item {padding-top: 35px; padding-bottom: 35px;}"
     ]
   }
 }
