@@ -184,7 +184,7 @@
       "type": "custom-liquid",
       "custom_css": [
         ".isotope-filters {display: flex; align-items: center; justify-content: center;}",
-        ".isotope-filters .filter-button {border: 1px solid #e5e5e5; border-radius: 21px; color: #393939; font-family: Quicksan, sans-serif; margin-right: 25px; height: 43px; line-height: 25px; padding: 5px 29px; font-size: 16px; font-weight: bold; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; text-transform: cap}",
+        ".isotope-filters .filter-button {border: 1px solid #e5e5e5; border-radius: 21px; color: #393939; font-family: Quicksan, sans-serif; margin-right: 25px; height: 43px; line-height: 25px; padding: 5px 29px; font-size: 16px; font-weight: bold; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;}",
         ".isotope-filters .filter-button:hover {border-color: #f379a7; background-color: #f379a7; color: #fff;}"
       ],
       "settings": {
