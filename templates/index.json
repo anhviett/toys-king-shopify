@@ -180,10 +180,6 @@
         "padding_bottom": 52
       }
     },
-    "vertical_tabs": {
-      "type": "vertical_tabs",
-      "settings": {}
-    }
   },
   "order": [
     "slideshow_LeJEXR",
@@ -191,6 +187,5 @@
     "featured_collection_MLX4Wx",
     "featured_collection",
     "rich_text_YFywJi",
-    "vertical_tabs"
   ]
 }
