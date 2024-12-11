@@ -53,6 +53,9 @@
         "description",
         "share"
       ],
+      "custom_css": [
+        ".price-item {font-style: normal; font-weight: bold; font-size: 20px;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
