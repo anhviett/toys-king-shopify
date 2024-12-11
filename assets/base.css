@@ -6,6 +6,7 @@
   --focused-base-outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  --color-text: #7E7E7E;
 }
 
 .product-card-wrapper .card,
@@ -401,7 +402,7 @@ body p, p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 28px;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 15px;
     color: var(--color-text);
 }
