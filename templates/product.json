@@ -51,7 +51,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Develops Fine Motor Skills",
-            "icon": "check_mark",
+            "icon": "star",
             "content": "<p>These toys help improve hand-eye coordination and fine motor skills as children manipulate small pieces and build structures.</p>",
             "page": ""
           }
@@ -60,7 +60,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Promotes Problem-Solving",
-            "icon": "check_mark",
+            "icon": "banana",
             "content": "<p>By engaging in play, children develop critical thinking and problem-solving skills, learning to overcome challenges and find solutions.</p>",
             "page": ""
           }
