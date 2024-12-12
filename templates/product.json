@@ -98,7 +98,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "background-1",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -134,7 +134,8 @@
         "text_xNEKYP"
       ],
       "custom_css": [
-        ".custom-features {display: none}"
+        ".custom-features {display: none;}",
+        ".rich-text__text p {color: #fff; font-size: 18px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
