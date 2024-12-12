@@ -112,6 +112,36 @@
         "padding_bottom": 12
       }
     },
+    "rich_text_4VDrGc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QijqXf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unleash Imagination, Spark Creativity",
+            "heading_size": "h1"
+          }
+        },
+        "text_xNEKYP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What Your Child Will Receive</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QijqXf",
+        "text_xNEKYP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -133,6 +163,7 @@
   },
   "order": [
     "main",
+    "rich_text_4VDrGc",
     "related-products"
   ]
 }
