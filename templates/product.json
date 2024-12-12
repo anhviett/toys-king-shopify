@@ -133,6 +133,9 @@
         "heading_QijqXf",
         "text_xNEKYP"
       ],
+      "custom_css": [
+        ".custom-features {display: none}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
