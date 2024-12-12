@@ -146,6 +146,68 @@
         "padding_bottom": 52
       }
     },
+    "collapsible_content_jzigbJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Mg3NK8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Building Blocks of Creativity",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_zGRVgA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Art & Play Fusion",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_hTMdW4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Interactive Fun",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_UNyD86": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Themed Adventures",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Mg3NK8",
+        "collapsible_row_zGRVgA",
+        "collapsible_row_hTMdW4",
+        "collapsible_row_UNyD86"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/Funny_3D.gif",
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -168,6 +230,7 @@
   "order": [
     "main",
     "rich_text_4VDrGc",
+    "collapsible_content_jzigbJ",
     "related-products"
   ]
 }
