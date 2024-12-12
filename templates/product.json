@@ -42,7 +42,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Enhances Creativity",
-            "icon": "leaf",
+            "icon": "creativity",
             "content": "<p>Our toys stimulate children's imagination and creativity, encouraging them to build, design, and invent new creations.</p>",
             "page": ""
           }
@@ -51,7 +51,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Develops Fine Motor Skills",
-            "icon": "star",
+            "icon": "problem_solution",
             "content": "<p>These toys help improve hand-eye coordination and fine motor skills as children manipulate small pieces and build structures.</p>",
             "page": ""
           }
@@ -60,7 +60,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Promotes Problem-Solving",
-            "icon": "banana",
+            "icon": "brain",
             "content": "<p>By engaging in play, children develop critical thinking and problem-solving skills, learning to overcome challenges and find solutions.</p>",
             "page": ""
           }
@@ -69,7 +69,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Encourages Social Interaction",
-            "icon": "check_mark",
+            "icon": "handshake",
             "content": "<ol><li>Our toys are perfect for group play, fostering teamwork, communication, and social skills as children collaborate and share ideas.</li></ol>",
             "page": ""
           }
