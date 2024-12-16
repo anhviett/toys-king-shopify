@@ -4196,45 +4196,6 @@ details-disclosure>details {
   opacity: 1.0;
 }
 
-
-slideshow-component:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 280px;
-  max-height: 32%;
-  top: auto;
-  left: 0;
-  right: 0;
-  bottom: -1px;
-  z-index: 2;
-  -webkit-mask-image: url('//dt-kidscool.myshopify.com/cdn/shop/files/slider-cloud-bg.png?v=1682063227&width=2500'), url('//dt-kidscool.myshopify.com/cdn/shop/files/slider-cloud-bg-ligh2t_1.png?v=1682061640&width=2500');
-  -webkit-mask-size: contain;
-  -webkit-mask-position: bottom center;
-  -webkit-mask-repeat: repeat-x;
-  background-color: var(--gradient-base-background-1);
-  pointer-events: none;
-}
-
-.footer:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 280px;
-  max-height: 32%;
-  top: auto;
-  left: 0;
-  right: 0;
-  bottom: -1px;
-  z-index: 2;
-  -webkit-mask-image: url('//dt-kidscool.myshopify.com/cdn/shop/files/footer-mask-dark-png.png?v=1682415290&width=2500'),url('//dt-kidscool.myshopify.com/cdn/shop/files/footer-bg-lite.png?v=1682415305&width=2500');
-  -webkit-mask-size: contain;
-  -webkit-mask-position: bottom center;
-  -webkit-mask-repeat: repeat-x;
-  background-color: var(--gradient-base-background-1);
-  pointer-events: none;
-}
-
 /*     @keyframes swell {
       0%, 100% {
         transform: scaleX(1);
