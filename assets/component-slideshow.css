@@ -210,7 +210,7 @@ slideshow-component.slider-mobile-gutter:before {
     right: 0;
     bottom: -1px;
     z-index: 2;
-    background-image: url('slider-cloud-bg.webp'), url('slider-cloud-bg-light2t_1.webp');
+    background-image: url('slider-cloud-bg.webp'), url('slider-cloud-bg-light.webp');
     background-size: contain;
     background-position: bottom center;
     background-repeat: repeat-x;
