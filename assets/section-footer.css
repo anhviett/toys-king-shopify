@@ -1,6 +1,7 @@
 .footer {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
   position: relative;
+  z-index: 0;
 }
 
 .footer::before {
@@ -26,6 +27,7 @@
 .footer__content-top {
   padding-bottom: 5rem;
   display: block;
+  position: relative;
 }
 
 @media screen and (max-width: 749px) {
