@@ -15,7 +15,7 @@
   -webkit-mask-size: cover;
   -webkit-mask-position: top center, top center;
   -webkit-mask-repeat: no-repeat, no-repeat;
-  -webkit-mask-color: #fff;
+  background-color: #fff;
   pointer-events: none;
 }
 
