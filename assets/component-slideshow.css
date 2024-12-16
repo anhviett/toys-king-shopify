@@ -214,7 +214,7 @@ slideshow-component.slider-mobile-gutter:before {
     -webkit-mask-size: contain;
     -webkit-mask-position: bottom center;
     -webkit-mask-repeat: repeat-x;
-    -webkit-mask-color: #fff;
+    background-color: #fff;
     pointer-events: none;
 }
 
