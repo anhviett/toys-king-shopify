@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("{{ 'footer-mask-dark-png.webp' }}"), url("{{ 'footer-bg-lite.webp' }}");
+  background-image: url('footer-mask-dark-png.webp'), url('footer-bg-lite.webp');
   background-size: cover;
   background-position: top center, top center;
   background-repeat: no-repeat, no-repeat;
