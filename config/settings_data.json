@@ -105,14 +105,14 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-3",
     "sold_out_badge_color_scheme": "accent-3",
-    "brand_headline": "DAWN",
-    "brand_description": "<p>At Toy King, we crown each playtime with enchanting experiences that make childhood unforgettable.</p>",
-    "brand_image_width": 465,
-    "social_facebook_link": "",
+    "brand_headline": "",
+    "brand_description": "<p><em>Immerse yourself in the world of olfactory inspiration, where every scent is a style statement, and every perfume bottle, a work of art.</em></p>",
+    "brand_image_width": 550,
+    "social_facebook_link": "http://facebook.com/shopify",
     "social_instagram_link": "http://instagram.com/shopify",
-    "social_youtube_link": "",
+    "social_youtube_link": "youtube.com",
     "social_tiktok_link": "https://tiktok.com/@shopify",
-    "social_twitter_link": "",
+    "social_twitter_link": "https://x.com/ziec_an",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -138,17 +138,56 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "brand_information_Q8cjhc": {
+            "type": "brand_information",
+            "settings": {
+              "show_social": true
+            }
+          },
+          "link_list_XnkMHD": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "main-menu"
+            }
+          },
+          "link_list_YA6tEU": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Help",
+              "menu": "customer-account-main-menu"
+            }
+          }
+        },
+        "block_order": [
+          "brand_information_Q8cjhc",
+          "link_list_XnkMHD",
+          "link_list_YA6tEU"
+        ],
+        "settings": {
+          "color_scheme": "",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "enable_follow_on_shop": true,
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": true,
+          "payment_enable": false,
+          "show_policy": false,
+          "margin_top": 20,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
       }
     },
     "content_for_index": [],
     "blocks": {
       "9696655121035291526": {
         "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
-        "disabled": false,
-        "settings": {}
-      },
-      "21474836472147483647": {
-        "type": "shopify://apps/ecomposer-landing-page-builder/blocks/app-embed/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
         "disabled": false,
         "settings": {}
       }
