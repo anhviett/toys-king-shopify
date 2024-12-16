@@ -4227,7 +4227,7 @@ slideshow-component:before {
   right: 0;
   bottom: -1px;
   z-index: 2;
-  -webkit-mask-image: url('//dt-kidscool.myshopify.com/cdn/shop/files/footer-mask-dark-png.png?v=1682415290&width=2500'),url('//dt-kidscool.myshopify.com/cdn/shop/files/footer-bg-lite.png?v=1682415305&width=2500')
+  -webkit-mask-image: url('//dt-kidscool.myshopify.com/cdn/shop/files/footer-mask-dark-png.png?v=1682415290&width=2500'),url('//dt-kidscool.myshopify.com/cdn/shop/files/footer-bg-lite.png?v=1682415305&width=2500');
   -webkit-mask-size: contain;
   -webkit-mask-position: bottom center;
   -webkit-mask-repeat: repeat-x;
