@@ -4,10 +4,16 @@
     padding: 15px;
 }
 .custom-collection .card:not(.ratio):hover {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    margin: 0 12px;
     background-color: #6f9cf1;
 }
 .custom-collection .card:not(.ratio):hover .card__content .card__information a, .custom-collection .card:not(.ratio):hover .card__content .card__information .contact-info h2{
     color: #fff;
+}
+.custom-collection .card:not(.ratio):hover .card__media {
+    background-color: #6f9cf1;
 }
 .custom-collection .card__content .card__information {
     display: flex;
@@ -21,6 +27,9 @@
 .custom-collection .card__content .card__information a {
     color: #253d4e;
     font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Chewy', sans-serif;
     font-style: normal;
+}
+.custom-collection .card__content .contact-info a, .custom-collection .card__content .contact-info .title {
+    font-family: 'Chewy', sans-serif;
 }
