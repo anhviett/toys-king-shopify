@@ -4062,28 +4062,15 @@ details-disclosure>details {
 
 /* custom collection design */
 .custom-section-selector {
-  background: #FFF7EE;
-}
-
-.card__media {
-  background: #FFF7EE;
+  background: #F7F8FA;
 }
 
 .card__media img {
   border-radius: 7px;
 }
 
-/* custom collection design */
-.custom-section-selector {
-  background: #FFF7EE;
-}
-
 .card__media {
-  background: #FFF7EE;
-}
-
-.card__media img {
-  border-radius: 7px;
+  background: #F7F8FA;
 }
 
 .unique-container-class .icon {
@@ -4094,7 +4081,7 @@ details-disclosure>details {
   height: 6rem;
   background: var(--clr);
   border-top-left-radius: 50%;
-  background: #FFF7EE;
+  background: #F7F8FA;
 }
 
 .unique-container-class .icon:hover .iconBox:hover {
@@ -4110,7 +4097,7 @@ details-disclosure>details {
   width: 1.25rem;
   height: 1.25rem;
   border-bottom-right-radius: 1.25rem;
-  box-shadow: 0.313rem 0.313rem 0 0.313rem #FFF7EE;
+  box-shadow: 0.313rem 0.313rem 0 0.313rem #F7F8FA;
   text-decoration: none;
 }
 
@@ -4123,14 +4110,14 @@ details-disclosure>details {
   width: 1.25rem;
   height: 1.25rem;
   border-bottom-right-radius: 1.25rem;
-  box-shadow: 0.313rem 0.313rem 0 0.313rem #FFF7EE;
+  box-shadow: 0.313rem 0.313rem 0 0.313rem #F7F8FA;
   text-decoration: none;
 }
 
 .unique-container-class .icon .iconBox {
   position: absolute;
   inset: 0.625rem;
-  background: #ebc390;
+  background: #4c555d;
   border-radius: 50%;
   display: flex;
   justify-content: center;

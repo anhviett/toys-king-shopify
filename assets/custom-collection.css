@@ -1,0 +1,26 @@
+.custom-collection .card:not(.ratio) {
+    flex-direction: row;
+    background-color: #e4f6fe;
+    padding: 15px;
+}
+.custom-collection .card:not(.ratio):hover {
+    background-color: #6f9cf1;
+}
+.custom-collection .card:not(.ratio):hover .card__content .card__information a, .custom-collection .card:not(.ratio):hover .card__content .card__information .contact-info h2{
+    color: #fff;
+}
+.custom-collection .card__content .card__information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.custom-collection .card__content .card__information h2 {
+    margin: 0;
+    font-weight: bold;
+}
+.custom-collection .card__content .card__information a {
+    color: #253d4e;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+}
