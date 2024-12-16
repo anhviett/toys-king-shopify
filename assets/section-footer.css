@@ -10,10 +10,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  -webkit-mask-image: url('{{ "footer-mask-dark-png.webp" | asset_url }}'), url('{{ "footer-bg-lite.webp" | asset_url }}');
-  -webkit-mask-size: cover;
-  -webkit-mask-position: top center, top center;
-  -webkit-mask-repeat: no-repeat, no-repeat;
+  background-image: url('{{ "footer-mask-dark-png.webp" | asset_url }}'), url('{{ "footer-bg-lite.webp" | asset_url }}');
+  background-size: cover;
+  background-position: top center, top center;
+  background-repeat: no-repeat, no-repeat;
   background-color: var(--gradient-base-background-3);
   pointer-events: none;
 }
