@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('{{ "slider-cloud-bg.webp" | asset_url }}'), url('{{ "slider-cloud-bg-light2t_1.webp" | asset_url }}');
+  background-image: url("{{ 'footer-mask-dark-png.webp' | asset_url }}"), url("{{ 'footer-bg-lite.webp' | asset_url }}");
   background-size: cover;
   background-position: top center, top center;
   background-repeat: no-repeat, no-repeat;
