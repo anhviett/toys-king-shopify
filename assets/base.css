@@ -4208,7 +4208,7 @@ slideshow-component:before {
   right: 0;
   bottom: -1px;
   z-index: 2;
-  -webkit-mask-image: url('//dt-kidscool.myshopify.com/cdn/shop/files/slider-cloud-bg.png?v=1682063227&width=2500'), url('//dt-kidscool.myshopify.com/cdn/shop/files/slider-cloud-bg-ligh2t_1.png?v=1682061640&width=2500');
+  -webkit-mask-image: url('{{ "slider-cloud-bg.webp" | asset_url }}'), url('{{ "slider-cloud-bg-light2t_1.webp" | asset_url }}');
   -webkit-mask-size: contain;
   -webkit-mask-position: bottom center;
   -webkit-mask-repeat: repeat-x;
