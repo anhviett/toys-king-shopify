@@ -9,7 +9,9 @@
  */
 {
   "current": {
-    "logo_width": 190,
+    "logo": "shopify://shop_images/Toys_King_566e86db-f4d8-44b8-bd18-9e54d3d349a7.png",
+    "logo_width": 100,
+    "favicon": "shopify://shop_images/Toys_King-removebg-preview.png",
     "type_header_font": "roboto_n4",
     "heading_scale": 100,
     "type_body_font": "newsreader_i4",
@@ -107,7 +109,8 @@
     "sold_out_badge_color_scheme": "accent-3",
     "brand_headline": "",
     "brand_description": "<p><em>Immerse yourself in the world of olfactory inspiration, where every scent is a style statement, and every perfume bottle, a work of art.</em></p>",
-    "brand_image_width": 550,
+    "brand_image": "shopify://shop_images/Toys_King_566e86db-f4d8-44b8-bd18-9e54d3d349a7.png",
+    "brand_image_width": 90,
     "social_facebook_link": "http://facebook.com/shopify",
     "social_instagram_link": "http://instagram.com/shopify",
     "social_youtube_link": "youtube.com",
