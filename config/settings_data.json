@@ -193,6 +193,11 @@
         "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
         "disabled": false,
         "settings": {}
+      },
+      "17091069864798410149": {
+        "type": "shopify://apps/snapbundle/blocks/snap-bundle/33a81c0e-39d0-4c00-a010-3922a151e7ca",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
