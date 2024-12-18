@@ -16,6 +16,62 @@
         "padding_bottom": 28
       }
     },
+    "multirow_jq6fbP": {
+      "type": "multirow",
+      "blocks": {
+        "row_37ebLR": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/AS_151848.webp",
+            "caption": "",
+            "heading": "WHO WE ARE",
+            "text": "<p>TOYS KING is a universe of play, learning, exploration, and creativity, driven by the joy of every child who ventures here! We always put parents and kids at the heart of our product design and innovation, ensuring health, creativity, and happiness for children's growth. We combine valuable insights with trendy designs to develop fun toys. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_MHy8mN": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "WHAT WE BELIEVE?",
+            "text": "<p>We believe that a childhood filled with fun creates lifelong memories! We think outside the toy box to design toys with engaging play value, ensuring every child's journey of exploration and happiness in Toys King</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_BjEC3i": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Benefits of use",
+            "text": "<p>Our toys not only offer endless fun but also help children develop essential skills such as creativity, problem-solving, and social interaction. Playing with our toys encourages imagination, enhances fine motor skills, and fosters cognitive growth, making every playtime a valuable learning experience.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_37ebLR",
+        "row_MHy8mN",
+        "row_BjEC3i"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_dMjXXy": {
       "type": "custom-liquid",
       "settings": {
@@ -46,6 +102,7 @@
   },
   "order": [
     "main",
+    "multirow_jq6fbP",
     "custom_liquid_dMjXXy",
     "custom_liquid_3JUjQ6",
     "custom_liquid_Q7JXYX"
