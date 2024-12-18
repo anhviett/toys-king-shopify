@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,9 +15,66 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multirow_jq6fbP": {
+      "type": "multirow",
+      "blocks": {
+        "row_37ebLR": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/AS_151848.webp",
+            "caption": "",
+            "heading": "WHO WE ARE",
+            "text": "<p>TOYS KING is an universe of play, learning, exploration and creativity, fueled by the joy of each child who travels here! We always keep parents and kids at the heart of our product design and innovation, to make sure health, creativity and happiness for children‘s growth. We blend valuable insight with trendy design to develop fun toys.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_MHy8mN": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_BjEC3i": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_37ebLR",
+        "row_MHy8mN",
+        "row_BjEC3i"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multirow_jq6fbP"
   ]
 }
