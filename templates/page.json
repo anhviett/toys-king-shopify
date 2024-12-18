@@ -72,44 +72,11 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_YKzwBX": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_KhhgGV": {
-          "type": "heading",
-          "settings": {
-            "heading": "test",
-            "heading_size": "h1"
-          }
-        },
-        "text_B8R7z6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_YQz7Kc": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_KhhgGV",
-        "text_B8R7z6",
-        "button_YQz7Kc"
-      ],
+    "custom_liquid_dMjXXy": {
+      "type": "custom-liquid",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "custom_liquid": "<div class=\"isolate\">\n  <div class=\"rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-template--18248318189699__rich_text_YFywJi-padding\">\n    <div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n      <div class=\"rich-text__blocks center\"><h2 class=\"rich-text__heading rte inline-richtext h1\">\n        Our Mission\n              </h2>\n              <div class=\"custom-features\">\n                <div class=\"feature-item\">\n                  <p>\n                    We’re on a mission to bring a happy playing journey to every child! We offer a wide range of innovative, high-quality toys and nursery products that kids love and parents ask for by name. We never take for granted the role our products play in the lives of children and families. We want to earn your trust and loyalty by manufacturing high quality products that deliver safety, value, and a little TOYSKING magic. Start our TOYSKING journey together now!\n                  </p>\n                </div>\n            </div>\n          </div>\n    </div>\n  </div>\n</div>",
         "color_scheme": "",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -118,6 +85,6 @@
   "order": [
     "main",
     "multirow_jq6fbP",
-    "rich_text_YKzwBX"
+    "custom_liquid_dMjXXy"
   ]
 }
