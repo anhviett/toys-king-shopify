@@ -77,6 +77,15 @@
       "settings": {
         "custom_liquid": "<div class=\"isolate\">\n  <div class=\"rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-template--18248318189699__rich_text_YFywJi-padding\">\n    <div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n      <div class=\"rich-text__blocks center\"><h2 class=\"rich-text__heading rte inline-richtext h1\">\n        Our Mission\n              </h2>\n              <div class=\"custom-features\">\n                <div class=\"feature-item\">\n                  <p>\n                    We’re on a mission to bring a happy playing journey to every child! We offer a wide range of innovative, high-quality toys and nursery products that kids love and parents ask for by name. We never take for granted the role our products play in the lives of children and families. We want to earn your trust and loyalty by manufacturing high quality products that deliver safety, value, and a little TOYSKING magic. Start our TOYSKING journey together now!\n                  </p>\n                </div>\n            </div>\n          </div>\n    </div>\n  </div>\n</div>",
         "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_3JUjQ6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"isolate\">\n  <div class=\"rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-template--18248318189699__rich_text_YFywJi-padding\">\n    <div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n      <div class=\"rich-text__blocks center\">\n              <div class=\"custom-features\">\n                <div class=\"feature-item\">\n                    <h4 class=\"h3 text-center\">\n                      <span class=\"material-symbols-outlined\">\n                        featured_seasonal_and_gifts\n                      </span>\n                    </h4>\n                    <p>VARIOUS FUN</p>\n                </div>\n                <div class=\"feature-item\">\n                    <h4 class=\"h3 text-center\">\n                      <span class=\"material-symbols-outlined\">\n                        design_services\n                      </span>\n                    </h4>\n                    <p>UNIQUE DESIGN</p>\n                </div>\n                <div class=\"feature-item\">\n                    <h4 class=\"h3 text-center\">\n                      <span class=\"material-symbols-outlined\">\n                        emoji_objects\n                      </span>\n                    </h4>\n                    <p>CREATIVITY, EXPLORATION AND EDUCATION</p>\n                </div>\n                <div class=\"feature-item\">\n                    <h4 class=\"h3 text-center\">\n                      <span class=\"material-symbols-outlined\">\n                        sentiment_satisfied\n                      </span>\n                    </h4>\n                    <p>\n                        TIMELESSNESS\n                    </p>\n                </div>\n            </div>\n          </div>\n    </div>\n  </div>\n</div>",
+        "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -85,6 +94,7 @@
   "order": [
     "main",
     "multirow_jq6fbP",
-    "custom_liquid_dMjXXy"
+    "custom_liquid_dMjXXy",
+    "custom_liquid_3JUjQ6"
   ]
 }
