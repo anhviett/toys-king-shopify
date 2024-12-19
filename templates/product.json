@@ -208,64 +208,58 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_niWDMX": {
-      "type": "collapsible-content",
+    "multirow_FQhPbQ": {
+      "type": "multirow",
       "blocks": {
-        "collapsible_row_rEMqhg": {
-          "type": "collapsible_row",
+        "row_d7rCaW": {
+          "type": "row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "image": "{{ product.metafields.custom.image_text_2.value.photo.value }}",
+            "caption": "Feeling",
+            "heading": "The feeling of surprise when opening a gift",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "collapsible_row_deRdgb": {
-          "type": "collapsible_row",
+        "row_cQpNa9": {
+          "type": "row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         },
-        "collapsible_row_qXABNy": {
-          "type": "collapsible_row",
+        "row_WdmTBA": {
+          "type": "row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_HHpYD4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_rEMqhg",
-        "collapsible_row_deRdgb",
-        "collapsible_row_qXABNy",
-        "collapsible_row_HHpYD4"
+        "row_d7rCaW",
+        "row_cQpNa9",
+        "row_WdmTBA"
       ],
       "settings": {
-        "caption": "",
-        "heading": "",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
         "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image": "{{ product.metafields.custom.image_text_2.value.photo.value }}",
-        "image_ratio": "adapt",
-        "desktop_layout": "image_first",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -293,7 +287,7 @@
     "main",
     "rich_text_4VDrGc",
     "collapsible_content_jzigbJ",
-    "collapsible_content_niWDMX",
+    "multirow_FQhPbQ",
     "related-products"
   ]
 }
