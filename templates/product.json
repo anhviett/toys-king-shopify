@@ -238,12 +238,31 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "173469063457e195b0": {
+      "type": "apps",
+      "blocks": {
+        "lai_product_reviews_lai_product_section_HMyekA": {
+          "type": "shopify://apps/lai-product-reviews/blocks/lai-product-section/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
+          "settings": {
+            "lai_product": "funny-3d-clone-pixel-art-blocks-toy-colorful-pin-art-toy-clone-face-palm-model-pinart-kids-family-funny-game-creative-gifts",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "lai_product_reviews_lai_product_section_HMyekA"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "rich_text_4VDrGc",
     "collapsible_content_jzigbJ",
-    "related-products"
+    "related-products",
+    "173469063457e195b0"
   ]
 }
