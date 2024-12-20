@@ -1492,3 +1492,14 @@ a.product__text {
     border: none;
   }
 }
+
+.color-swatch {
+  width: 48px;
+  height: 48px;
+}
+.product__info-container .product-form__input--pill input[type='radio'] + label {
+  border: 1px solid #efefef;
+}
+.product-form__input--pill input[type='radio']:checked + label {
+  border: 1px solid #253d4e;
+}
