@@ -92,10 +92,16 @@
       {% endif %}
       {{ input_dataset }}
     >
-    <label style="background-image: url({{ value | append: '.png' | file_url }})" for="{{ input_id }}">
-      {{ value -}}
-      {{ label_unavailable }}
-    </label>
+    {% if option.name == "Color" %}
+      <label class="color-swatch" style="background-image: url({{ value | append: '.png' | file_url }})" for="{{ input_id }}">
+        {{ label_unavailable }}
+      </label>
+    {% else %}
+      <label for="{{ input_id }}">
+        {{ value -}}
+        {{ label_unavailable }}
+      </label>
+    {% endif %}
   {%- elsif picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
     <option
       id="{{ input_id }}"
