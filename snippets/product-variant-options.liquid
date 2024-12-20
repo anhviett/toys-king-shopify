@@ -92,7 +92,7 @@
       {% endif %}
       {{ input_dataset }}
     >
-    <label for="{{ input_id }}">
+    <label style="background-image: url({{ value | append: '.png' | file_url }})" for="{{ input_id }}">
       {{ value -}}
       {{ label_unavailable }}
     </label>
