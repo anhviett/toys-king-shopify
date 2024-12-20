@@ -12,6 +12,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "complementary_pFRntf": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with dsfdsfsf",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 6,
+            "products_per_page": 2,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -82,6 +95,7 @@
         }
       },
       "block_order": [
+        "complementary_pFRntf",
         "vendor",
         "title",
         "price",
