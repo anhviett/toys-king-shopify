@@ -1,108 +1,146 @@
-{{ 'slick.css' | asset_url | stylesheet_tag }}
-{{ 'slick-theme.css' | asset_url | stylesheet_tag }}
-{{ 'slick.js' | asset_url | script_tag }}
-
+{{ 'swiper-theme.css' | asset_url | stylesheet_tag }}
 
 <style>
-  .slick-prev:before, .slick-next:before{
-    color:#000;
-  }
-  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-    color: transparent;
-    outline: none;
-    background: #ffffffbf;
-}
-.slick-next, .slick-prev {
-    right: 25px;
-    background: #fff;
-    border-radius: 100px;
-    height: 40px;
-    width: 40px;
-      box-shadow: 0px 0px 18px #0000002b;
+    .swiper {
+      width: 100%;
+      height: 100%;
     }
-  .slick-next {
-    right: 25px;
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-  .slick-prev {
-    left: 25px;
-        z-index: 999;
-}
-.slick-slide img {
-    width: 100%;
-}
-  .slick-initialized .slick-slide{
-    margin:10px;
-  }
-.slideshow-item p{
-  margin:0px;
-}
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .mySwiper2 {
+      height: 80%;
+      width: 100%;
+    }
+
+    .mySwiper {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    .mySwiper .swiper-slide {
+      width: 25%;
+      height: 100%;
+      opacity: 0.4;
+    }
+
+    .mySwiper .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-button-next::after, .swiper-button-prev::after {
+        display: none !important;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        color: #253D4E;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+    }
+
+    .swiper-button-next::before, .swiper-button-prev::before {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 0;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #000;
+        -webkit-transition: 0.15s ease-in-out;
+        transition: 0.15s ease-in-out;
+    }
 </style>
 
 
 <div class="container">
-  <div class="carousel-main">
-    {% for image in product.images %}
-      <div class="carousel-cell">
-  <img data-lazy="{{ image | img_url:''}}" />
-      </div>
-{% endfor %}
-      
-      
-      
+  <div class="swiper mySwiper2">
+    <div class="swiper-wrapper">
+        {% for image in product.images %}
+            <div class="swiper-slide">
+                <img src="{{ image | img_url:''}}" />
+            </div>
+        {% endfor %}
+    </div>
+    <div class="swiper-button-next" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+        <span class="material-symbols-outlined">
+            arrow_right_alt
+        </span>
+    </div>
+    <div class="swiper-button-prev" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+        <span class="material-symbols-outlined">
+            arrow_left_alt
+            
+        </span>
+    </div>
   </div>
-  <div class="carousel-nav">
-    {% for image in product.images %}
-      <div class="carousel-cell">
-  <img data-lazy="{{ image | img_url:'450x'}}" />
-      </div>
-{% endfor %}
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        {% for image in product.images %}
+        <div class="swiper-slide">
+            <img src="{{ image | img_url:'450x'}}" />
+        </div>
+        {% endfor %}
+    </div>
   </div>
-
 </div>
-<script>
- $('.carousel-main').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  fade: true,
-  asNavFor: '.carousel-nav',
-   lazyLoad: 'progressive',
-    adaptiveHeight: true
-});
-$('.carousel-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.carousel-main',
-  arrows: true,
-  centerMode: true,
-  focusOnSelect: true,
-  lazyLoad: 'progressive',
-   adaptiveHeight: true,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll:2
-      }
-    }
-  ]
-});
-		
-</script>
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
