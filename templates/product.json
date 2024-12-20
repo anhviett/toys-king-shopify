@@ -23,6 +23,17 @@
           "type": "title",
           "settings": {}
         },
+        "variant_picker_p8F7A7": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_eKibaE": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -84,6 +95,8 @@
       "block_order": [
         "vendor",
         "title",
+        "variant_picker_p8F7A7",
+        "quantity_selector_eKibaE",
         "price",
         "buy_buttons",
         "description",
