@@ -193,6 +193,11 @@
         "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
         "disabled": false,
         "settings": {}
+      },
+      "13790739142488346433": {
+        "type": "shopify://apps/lai-product-reviews/blocks/appBlockEmbed/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
