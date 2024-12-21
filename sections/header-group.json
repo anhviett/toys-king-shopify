@@ -48,7 +48,7 @@
       "custom_css": [
         ".mega-menu__list {grid-template-columns: repeat(2, minmax(0, 1fr));}",
         ".mega-menu__content {left: auto; right: auto;}",
-        ".header__menu-item .icon-caret {display: none;}"
+        ".header__menu-item .icon-caret {}"
       ],
       "settings": {
         "logo_position": "middle-left",
