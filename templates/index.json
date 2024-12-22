@@ -29,28 +29,10 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_yhXhGY": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_3Qw3QK",
-        "slide_yhXhGY"
+        "slide_3Qw3QK"
       ],
       "custom_css": [],
       "settings": {
@@ -62,27 +44,6 @@
         "image_behavior": "ambient",
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "1733501723b62a8bad": {
-      "type": "apps",
-      "blocks": {
-        "lai_product_reviews_lai_home_page_section_7d9gL6": {
-          "type": "shopify://apps/lai-product-reviews/blocks/lai-home-page-section/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
-          "settings": {
-            "type_layout": "choose_layout",
-            "source": "default_layout",
-            "title": "",
-            "background": "#fff",
-            "width_container": ""
-          }
-        }
-      },
-      "block_order": [
-        "lai_product_reviews_lai_home_page_section_7d9gL6"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "collection_list_CwHkVk": {
@@ -256,7 +217,6 @@
   },
   "order": [
     "slideshow_LeJEXR",
-    "1733501723b62a8bad",
     "collection_list_CwHkVk",
     "featured_collection",
     "image_with_text_YQAMNF",
