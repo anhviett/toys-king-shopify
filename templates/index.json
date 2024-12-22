@@ -34,7 +34,9 @@
       "block_order": [
         "slide_3Qw3QK"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".slideshow__text {border-radius: 9999px; box-shadow: 0 0 0 2px rgb(111 156 241), 8px 8px 0 0 rgb(111 156 241);}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
