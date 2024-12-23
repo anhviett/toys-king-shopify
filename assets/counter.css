@@ -70,3 +70,8 @@
     background-size: cover;
     transition: all var(--duration-default) linear;
 }
+.number-counter-block .description-blocks h3 {
+    font-size: 3.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
