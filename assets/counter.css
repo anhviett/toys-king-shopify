@@ -83,3 +83,6 @@
     font-weight: 400;
     margin: 0;
 }
+.number-counter-block .svg_block:hover {
+    filter: drop-shadow(10px 2px 0px var(--gradient-base-accent-2));
+}
