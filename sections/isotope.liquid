@@ -4,10 +4,31 @@
 
 <!-- Thêm CSS cho Isotope -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/isotope/3.0.6/isotope.pkgd.min.css" />
-
+<link rel="stylesheet" href="{{ 'custom-iso-tope.css' | asset_url }}" />
 <!-- Thêm JS cho Isotope -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/isotope/3.0.6/isotope.pkgd.min.js"></script>
 
+<style>
+.filter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #4d4eff;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  position: relative;
+  -webkit-mask-image: url(//dt-kidscool.myshopify.com/cdn/shop/files/oblong-AI.png?v=1683362356&width=300);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  transition: all var(--duration-default) linear;
+  height: 200px;
+}
+</style>
 <!-- Mã HTML cho Isotope -->
 <div class="isotope-filters">
   <button class="filter-button" data-filter="*">Tất cả</button>
