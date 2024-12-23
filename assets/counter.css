@@ -102,7 +102,7 @@
 .number-counter-block .svg_block:hover svg {
     animation-play-state: running;
 }
-.number-counter-block svg {
+.number-counter-block img {
     width: 84px;
     height: 84px;
     animation: svg-move 1.2s linear infinite;
