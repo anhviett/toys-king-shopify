@@ -27,7 +27,7 @@
     content: '';
     position: absolute;
     top: 0;
-    transition: all var(--duration-default) linear;
+    transition: all 300ms linear;
     width: 100%;
     max-width: 3rem;
     background-size: contain;
