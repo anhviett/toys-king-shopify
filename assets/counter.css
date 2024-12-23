@@ -80,7 +80,6 @@
     background-color: transparent;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     transition: all 300ms linear;
 }
 .number-counter-block .description-blocks h3 {
