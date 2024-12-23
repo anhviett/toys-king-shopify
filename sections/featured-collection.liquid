@@ -66,9 +66,9 @@
     id="collection-{{ section.id }}"
     data-id="{{ section.id }}"
   >
-    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %} {% if template == 'index' and section.settings.title == 'Featured collection' %}custom-feature-collection {% endif %}">
-      <div class="page-width">
+    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %} {% if template == 'index' and section.settings.title == 'Featured collection' %}custom-feature-collection{% endif %}">
         {% if template == 'index' and section.settings.title == 'Featured collection' %}
+        <div class="page-width">
           <div class="title-icon"></div>
         {% endif %}
         {% if template == 'index' and section.settings.title == 'Featured collection' %}
@@ -97,8 +97,8 @@
           <div class="title-wrapper-right-image">
             <img src="https://cdn.shopify.com/s/files/1/0625/5784/7683/files/abc-letter.png?v=1734941589" alt="ACB-Letter">
           </div>
+        </div>
         {% endif %}
-      </div>
     </div>
 
     <slider-component class="slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">

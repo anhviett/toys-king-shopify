@@ -15,8 +15,8 @@
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     transition: all var(--duration-default) linear;
-    width: 300px;
-    height: 230px;
+    width: 240px;
+    height: 220px;
     cursor: pointer;
 }
 .isotope-filters .filter-button:nth-child(1) {
