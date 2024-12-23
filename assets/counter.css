@@ -54,3 +54,19 @@
     top: -12rem;
     right: -22%;
 }
+.number-counter-block .svg_block {
+    background-image: url(//dt-kidscool.myshopify.com/cdn/shop/files/number-bg.png?v=1683021693&width=300);
+    background-size: contain;
+}
+.number-counter-block .svg_block {
+    width: 14rem;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all var(--duration-default) linear;
+}
