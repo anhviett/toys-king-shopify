@@ -30,14 +30,32 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_hjCzch": {
+        "slide_pP8BgC": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Toys_King_1.png",
+            "image": "shopify://shop_images/2.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_wcBUTF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pink_Watercolor_Flower_Opening_Soon_Banner.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -51,7 +69,8 @@
       },
       "block_order": [
         "slide_3Qw3QK",
-        "slide_hjCzch"
+        "slide_pP8BgC",
+        "slide_wcBUTF"
       ],
       "custom_css": [
         ".slideshow__text {border-radius: 9999px; box-shadow: 0 0 0 2px rgb(111 156 241), 8px 8px 0 0 rgb(111 156 241);}",
