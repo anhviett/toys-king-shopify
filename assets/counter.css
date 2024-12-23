@@ -99,3 +99,12 @@
 .number-counter-block .svg_block:hover {
     filter: drop-shadow(10px 2px 0px #eb1551);
 }
+.number-counter-block .svg_block:hover svg {
+    animation-play-state: running;
+}
+.number-counter-block svg {
+    width: 84px;
+    height: 84px;
+    animation: svg-move 1.2s linear infinite;
+    animation-play-state: paused;
+}
