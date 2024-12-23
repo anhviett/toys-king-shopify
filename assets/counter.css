@@ -1,3 +1,7 @@
+.number-counter {
+    position: relative;
+    background: transparent;
+}
 .number-counter:before {
     -webkit-mask-image: url(//dt-kidscool.myshopify.com/cdn/shop/files/counter_bg_img.png?v=1682492682&width=2500);
     -webkit-mask-size: cover;
