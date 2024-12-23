@@ -135,7 +135,7 @@
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Top toys to spark imagination</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "featured-products",
