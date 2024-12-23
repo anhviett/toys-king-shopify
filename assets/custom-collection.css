@@ -37,6 +37,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
     position: relative;
 }
 .custom-feature-collection img {
@@ -59,4 +61,17 @@
     -webkit-mask-size: 100%;
     -webkit-mask-position: center;
     -webkit-mask-repeat: no-repeat;
+}
+
+.custom-feature-collection .title-wrapper-left-image, .custom-feature-collection .title-wrapper-right-image {
+    position: absolute;
+    top: -100%;
+}
+
+.custom-feature-collection .title-wrapper-left-image {
+    left: 0;
+}
+
+.custom-feature-collection .title-wrapper-right-image {
+    right: 0;
 }

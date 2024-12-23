@@ -71,7 +71,9 @@
         <div class="title-icon"></div>
       {% endif %}
       {% if template == 'index' and section.settings.title == 'Featured collection' %}
-        <img src="https://cdn.shopify.com/s/files/1/0625/5784/7683/files/globe.png?v=1734889447" alt="Globe">
+        <div class="title-wrapper-left-image">
+          <img src="https://cdn.shopify.com/s/files/1/0625/5784/7683/files/globe.png" alt="Globe">
+        </div>
       {% endif %}
       {%- if section.settings.title != blank -%}
         <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -91,7 +93,9 @@
         </div>
       {%- endif -%}
       {% if template == 'index' and section.settings.title == 'Featured collection' %}
-        <img src="https://cdn.shopify.com/s/files/1/0625/5784/7683/files/abc-letter.png?v=1734941589" alt="ACB-Letter">
+        <div class="title-wrapper-right-image">
+          <img src="https://cdn.shopify.com/s/files/1/0625/5784/7683/files/abc-letter.png?v=1734941589" alt="ACB-Letter">
+        </div>
       {% endif %}
     </div>
 
