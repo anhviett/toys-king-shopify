@@ -66,7 +66,10 @@
     id="collection-{{ section.id }}"
     data-id="{{ section.id }}"
   >
-    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
+    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %} {% if template == 'index' and section.settings.title == 'Featured collection' %}custom-feature-collection {% endif %}">
+      {% if template == 'index' and section.settings.title == 'Featured collection' %}
+        <div class="title-icon"></div>
+      {% endif %}
       {% if template == 'index' and section.settings.title == 'Featured collection' %}
         <img src="https://cdn.shopify.com/s/files/1/0625/5784/7683/files/globe.png?v=1734889447" alt="Globe">
       {% endif %}

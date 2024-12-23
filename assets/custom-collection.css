@@ -33,3 +33,30 @@
 .custom-collection .card__content .contact-info a, .custom-collection .card__content .contact-info .title {
     font-family: 'Chewy', sans-serif;
 }
+.custom-feature-collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.custom-feature-collection img {
+    width: auto;
+    max-width: 15rem;
+}
+
+.custom-feature-collection .title-icon {
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, -100%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #B5B5B5;
+    margin-bottom: 0;
+    -webkit-mask-image: url('https://cdn.shopify.com/s/files/1/0625/5784/7683/files/abacus.svg?v=1734941588');
+    -webkit-mask-size: 100%;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+}
