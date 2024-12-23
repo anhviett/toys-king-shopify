@@ -73,7 +73,7 @@
 }
 .number-counter-block .svg_block {
     width: 14rem;
-    height: 14rem;
+    height: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +102,7 @@
 .number-counter-block .svg_block:hover svg {
     animation-play-state: running;
 }
-.number-counter-block img {
+.number-counter-block .svg_block img {
     width: 84px;
     height: 84px;
     animation: svg-move 1.2s linear infinite;
