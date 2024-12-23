@@ -86,10 +86,10 @@
     "custom_liquid_WzanXt": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"text-center\">\n  <h4\n  class=\"rich-text__heading rte inline-richtext h1\"\n>\nKids find so many ways to play with our toys. \n</h4>\n<div class=\"custom-features\">\n  <div class=\"feature-item h2\">\n      Share your favorites by tagging @toysking_kids\n  </div>\n</div>\n</div>",
+        "custom_liquid": "<div class=\"text-center\">\n  <h4\n  class=\"rich-text__heading rte inline-richtext h1 mb-4\"\n>\nKids find so many ways to play with our toys. \n</h4>\n<div class=\"custom-features\">\n  <div class=\"feature-item h2\" style=\"font-weight: 600;\">\n      Share your favorites by tagging @toysking_kids\n  </div>\n</div>\n</div>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
