@@ -78,3 +78,8 @@
 .number-counter :where(span.number-counter-value) {
     margin-right: 2px;
 }
+.number-counter :where(.number-counter-title) {
+    font-family: 'Quicksand';
+    font-weight: 400;
+    margin: 0;
+}
