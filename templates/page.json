@@ -101,11 +101,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_iPCpnn": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"rich-text__blocks center\">\n  <h2 class=\"rich-text__heading rte inline-richtext h1\">\n    Kids find so many ways to play with our toys. \n  </h2>\n  <div class=\"custom-features\">\n    <div class=\"feature-item\">\n        <div class=\"font-bold mt-1\">Share your favorites by tagging @toysking_kids </div>\n    </div>\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "multirow_jq6fbP",
-    "newsletter_G3nxq7"
+    "newsletter_G3nxq7",
+    "custom_liquid_iPCpnn"
   ]
 }
