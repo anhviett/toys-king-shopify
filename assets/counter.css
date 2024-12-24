@@ -66,6 +66,7 @@
     flex-direction: column;
     text-align: center;
     width: 100%;
+    padding: 5rem 0;
 }
 .number-counter-block .svg_block {
     background-image: url(//dt-kidscool.myshopify.com/cdn/shop/files/number-bg.png?v=1683021693&width=300);
