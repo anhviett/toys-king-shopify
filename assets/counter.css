@@ -3,10 +3,10 @@
     background: transparent;
 }
 .number-counter:before {
-    -webkit-mask-image: url(//dt-kidscool.myshopify.com/cdn/shop/files/counter_bg_img.png?v=1682492682&width=2500);
+    -webkit-mask-image: url('counter_bg_img.webp');
     -webkit-mask-size: cover;
     -webkit-mask-position: center center;
-    background-image: url(//dt-kidscool.myshopify.com/cdn/shop/files/number-bg-psd_1e168025-0c6a-4d5d-94af-8969b5eda538.png?v=1683272356&width=2500);
+    background-image: url('number-bg-counter.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -69,7 +69,7 @@
     padding: 5rem 0;
 }
 .number-counter-block .svg_block {
-    background-image: url(//dt-kidscool.myshopify.com/cdn/shop/files/number-bg.png?v=1683021693&width=300);
+    background-image: url('number-bg.webp');
     background-size: contain;
 }
 .number-counter-block .svg_block {
