@@ -22,7 +22,7 @@
         "row_37ebLR": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/AS_151848.webp",
+            "image": "shopify://shop_images/children-central-how-to-nurture-your-parent-child-relationship.jpg",
             "caption": "",
             "heading": "WHO WE ARE",
             "text": "<p>TOYS KING is a universe of play, learning, exploration, and creativity, driven by the joy of every child who ventures here! We always put parents and kids at the heart of our product design and innovation, ensuring health, creativity, and happiness for children's growth. We combine valuable insights with trendy designs to develop fun toys. </p>",
@@ -33,6 +33,7 @@
         "row_MHy8mN": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Parent-Child-Relationship.jpg",
             "caption": "",
             "heading": "WHAT WE BELIEVE?",
             "text": "<p>We believe that a childhood filled with fun creates lifelong memories! We think outside the toy box to design toys with engaging play value, ensuring every child's journey of exploration and happiness in Toys King</p>",
@@ -43,6 +44,7 @@
         "row_BjEC3i": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Parent-Child-Relationship.jpg",
             "caption": "",
             "heading": "Benefits of use",
             "text": "<p>Our toys not only offer endless fun but also help children develop essential skills such as creativity, problem-solving, and social interaction. Playing with our toys encourages imagination, enhances fine motor skills, and fosters cognitive growth, making every playtime a valuable learning experience.</p>",
@@ -71,10 +73,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_6XNEqh": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "multirow_jq6fbP"
+    "multirow_jq6fbP",
+    "custom_liquid_6XNEqh"
   ]
 }
