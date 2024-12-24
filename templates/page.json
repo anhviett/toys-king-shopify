@@ -74,11 +74,30 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_6XNEqh": {
-      "type": "custom-liquid",
+    "newsletter_G3nxq7": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_WkWtwR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_yifYFJ": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>We’re on a mission to bring a happy playing journey to every child! We offer a wide range of innovative, high-quality toys and nursery products that kids love and parents ask for by name. We never take for granted the role our products play in the lives of children and families. We want to earn your trust and loyalty by manufacturing high quality products that deliver safety, value, and a little TOYSKING magic. Start our TOYSKING journey together now!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WkWtwR",
+        "paragraph_yifYFJ"
+      ],
       "settings": {
-        "custom_liquid": "",
         "color_scheme": "",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -87,6 +106,6 @@
   "order": [
     "main",
     "multirow_jq6fbP",
-    "custom_liquid_6XNEqh"
+    "newsletter_G3nxq7"
   ]
 }
