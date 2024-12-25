@@ -4321,3 +4321,9 @@ details-disclosure>details {
 .breadcrumbs [aria-current="page"]:focus {
   text-decoration: underline;
 }
+.product-card-wrapper .card .card__content .card__information .card__heading a {
+  font-size: 16px;
+  font-family: Quicksand, sans-serif;
+  font-weight: 700;
+  color: #253d4e;
+}
