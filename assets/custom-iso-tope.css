@@ -5,7 +5,7 @@
     color: #fff;
     background: #4d4eff;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.8px;
     line-height: 1;
@@ -15,9 +15,11 @@
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     transition: all var(--duration-default) linear;
-    width: 240px;
-    height: 220px;
+    width: 150px;
+    height: 150px;
     cursor: pointer;
+    border: 0;
+    margin: 0 5px;
 }
 .isotope-filters .filter-button:nth-child(1) {
     background: #eb1551;
@@ -30,4 +32,12 @@
 }
 .isotope-filters .filter-button:nth-child(4) {
     background: #1cbbb4;
+}
+.isotope-filters .filter-button:nth-child(5) {
+    background: #f8afa5;
+}
+
+.isotope-filters .filter-button:hover {
+    background: #E4F6FE;
+    color: #253d4e;
 }

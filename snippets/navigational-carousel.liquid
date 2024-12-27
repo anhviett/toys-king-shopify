@@ -1,0 +1,52 @@
+{{ 'slider.min.css' | asset_url | stylesheet_tag }}
+{{ 'navigational-carousel.min.css' | asset_url | stylesheet_tag }}
+<script defer src="{{ 'navigational-carousel.min.js' | asset_url }}"></script>
+<style>
+  :root {
+    --color-type-green: rgb(182, 221, 148);
+  }
+
+  .image-with-text__grid {
+    position: relative;
+  }
+
+  navigational-carousel {
+    line-height: 1px;
+  }
+
+  .illustration {
+    color: #6ac46a; 
+    position: absolute;
+    left: -1.25rem;
+    bottom: calc(100% + 1.4vw);
+    width: 8vw;
+    height: 7.35vw;
+  }
+
+  .illustration + .illustration {
+    right: 5.625rem;
+    top: 1.875rem;
+    left: inherit;
+  }
+
+  .custom-image-text{
+    background-color: #b6dd94;
+    padding-top: 0px;
+  }
+
+  .navigational-carousel {
+    background-color: #fff;
+  }
+</style>
+
+<navigational-carousel>
+    <div class="navigational-carousel">
+        <svg class="wave-animation" id="ePBUlsxhERT1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 130" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+            <path id="ePBUlsxhERT2" d="M 0 71.29226939 L 0 130 L 1440 130 L 1440 60.572112816499995 C 1353.197342269 81.91153691650001 1039.1525482074999 64.87688308150001 724.53828519 46.482867840500006 C 463.0548022795 32.9983484395 199.45625263299996 91.06171380149999 0 71.29226939 Z" fill="var(--color-type-green)"></path>
+            <path id="ePBUlsxhERT3" d="M 0 54.5621921125 C 296.897599296 67.84037406349998 403.223167307 23.84421633 646.3727444875 43.374799298499994 C 1049.080691185 69.0378989305 1368.8732266935 67.9553593485 1440 46.4406" fill="none" stroke="var(--color-type-green)" stroke-width="3"></path>
+            <path id="ePBUlsxhERT4" d="M 0 56.2945 C 93.3871324205 59.672313843 334.3625735115 58.7048831825 590.2991784760001 58.37250319 C 913.352668355 57.0330014005 1347.1287511105 70.1120830625 1440 56.2945" fill="none" stroke="var(--color-type-green)" stroke-width="3"></path>
+            
+            {% include 'navigational-carousel-js.liquid' %} 
+        </svg>
+    </div>
+</navigational-carousel>
