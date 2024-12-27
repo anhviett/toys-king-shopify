@@ -4389,12 +4389,12 @@ details-disclosure>details {
   height: 85px;
   left: 0;
   bottom: -2px;
-  -webkit-mask-image: url(//dt-kidscool.myshopify.com/cdn/shop/files/bread-cum-overlay.png?v=1683800281&width=1920);
+  -webkit-mask-image: url('bread-cum-overlay.webp');
   -webkit-mask-repeat: repeat;
   -webkit-mask-size: auto;
   -webkit-mask-position: center;
   z-index: 1;
-  background-color: #F7F8FA;
+  background-color: #fff;
   animation: clouds 400s linear infinite;
   -webkit-animation: clouds 400s linear infinite;
 }

@@ -10,6 +10,10 @@
   text-align: var(--text-alignment);
 }
 
+.card:hover {
+  border: 0.2rem dashed #0a6375;
+}
+
 .card:not(.ratio) {
   display: flex;
   flex-direction: column;
