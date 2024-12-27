@@ -1,0 +1,42 @@
+.facets__heading {
+    color: #253d4e;
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto 15px;
+}
+
+.facets__disclosure {
+    padding: 0.625rem 0.5rem 0.625rem 0.75rem;
+    margin-right: 0.625rem;
+    margin-bottom: 0;
+}
+
+.disclosure-has-popup, .facet-filters {
+    background-color: #f5f4f5;
+    border-radius: .25rem .25rem 0 0;
+    transition: .3s;
+}
+
+.facets__summary {
+    margin: 0;
+    color: #253d4e;
+    font-weight: bold;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+.facet-filters h2 label, .facet-filters .select select {
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.facet-filters{ 
+    align-items: center;
+    padding-right: 2.5rem;
+}
+
+.facets__summary span {
+    font-style: normal;
+}
