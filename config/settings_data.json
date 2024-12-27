@@ -173,7 +173,7 @@
         ],
         "custom_css": [
           ".footer {background-color: #9bd4ff;}",
-          ".footer__content-bottom {padding-top: 0}"
+          ".footer__content-bottom {padding-top: 0;}"
         ],
         "settings": {
           "color_scheme": "",
