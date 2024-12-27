@@ -171,6 +171,9 @@
           "link_list_XnkMHD",
           "link_list_YA6tEU"
         ],
+        "custom_css": [
+          ".footer {background-color: #9bd4ff;}"
+        ],
         "settings": {
           "color_scheme": "",
           "newsletter_enable": true,
