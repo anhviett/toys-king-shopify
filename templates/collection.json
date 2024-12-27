@@ -20,7 +20,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".facets__heading {color: #253d4e; font-family: \"Quicksand\"; font-weight: bold; font-size: 18px;}"
+        ".facets__heading {color: #253d4e; font-family: \"Quicksand\"; font-weight: bold; font-size: 18px;}",
+        ".facets__disclosure {padding: .625rem .5rem .625rem .75rem; margin-right: .625rem;}"
       ],
       "settings": {
         "products_per_page": 16,
