@@ -19,6 +19,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".facets__heading {color: #253d4e; font-family: 'Quicksand'; font-weight: bold;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
