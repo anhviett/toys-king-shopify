@@ -24,7 +24,7 @@
         "columns_desktop": 3,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
-        "image_shape": "chevronleft",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
