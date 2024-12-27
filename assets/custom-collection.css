@@ -4,9 +4,6 @@
     padding: 15px;
 }
 .custom-collection .card:not(.ratio):hover {
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    margin: 0 12px;
     background-color: #6f9cf1;
 }
 .custom-collection .card:not(.ratio):hover .card__content .card__information a, .custom-collection .card:not(.ratio):hover .card__content .card__information .contact-info h2{
