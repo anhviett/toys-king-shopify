@@ -91,6 +91,29 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_6mVAfp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BQ3ehc": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BQ3ehc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_jzigbJ": {
       "type": "collapsible-content",
       "blocks": {
@@ -175,6 +198,7 @@
   "order": [
     "main",
     "rich_text_4VDrGc",
+    "rich_text_6mVAfp",
     "collapsible_content_jzigbJ",
     "related-products"
   ]
