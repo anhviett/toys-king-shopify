@@ -171,20 +171,55 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_jzigbJ": {
-      "type": "collapsible-content",
+    "multicolumn_4FDxne": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wGzhpg": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen produc, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3XJgji": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xQiDFN": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wGzhpg",
+        "column_3XJgji",
+        "column_xQiDFN"
+      ],
       "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "none",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
         "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image": "{{ product.metafields.custom.collapsible_custom.value.photo.value }}",
-        "image_ratio": "small",
-        "desktop_layout": "image_second",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -213,7 +248,7 @@
     "rich_text_6mVAfp",
     "rich_text_4VDrGc",
     "multirow_EtJ9dz",
-    "collapsible_content_jzigbJ",
+    "multicolumn_4FDxne",
     "related-products"
   ]
 }
