@@ -1,4 +1,5 @@
 {{ 'swiper-theme.css' | asset_url | stylesheet_tag }}
+{{ 'custom-featured-thumbnail.css' | asset_url | stylesheet_tag }}
 
 <style>
     .swiper {
@@ -24,7 +25,6 @@
 
     .swiper {
       width: 100%;
-      height: 300px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -90,7 +90,6 @@
     }
 
     .swiper-slide {
-        border: 1px solid #e6e6e6;
         border-radius: 4px;
     }
 
@@ -142,7 +141,7 @@
   <script>
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 10,
-      slidesPerView: 4,
+      slidesPerView: 5,
       freeMode: true,
       watchSlidesProgress: true,
     });
@@ -155,5 +154,6 @@
       thumbs: {
         swiper: swiper,
       },
+      slidesPerView: "auto"
     });
   </script>

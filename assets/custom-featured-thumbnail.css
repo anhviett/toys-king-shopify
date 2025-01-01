@@ -1,0 +1,5 @@
+@media screen and (min-width: 500px) {
+    .mySwiper2 .swiper-wrapper .swiper-slide img {
+        width: 500px;
+    }
+}
