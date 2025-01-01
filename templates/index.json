@@ -186,42 +186,6 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_YFywJi": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cjTYXU": {
-          "type": "heading",
-          "settings": {
-            "heading": "WHY CHOOSE TOYS KING?",
-            "heading_size": "h1"
-          }
-        },
-        "text_U4jNRQ": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_cjTYXU",
-        "text_U4jNRQ"
-      ],
-      "custom_css": [
-        ".custom-features .feature-item p {font-weight: 500; font-size: 16px;}",
-        ".custom-features .feature-item .h3 span {font-size: 48px;}",
-        ".custom-features .feature-item .h3 p {font-size: 19px;}",
-        ".rich-text__blocks .h1 {font-weight: bold;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "custom_liquid_HxnxQV": {
       "type": "custom-liquid",
       "custom_css": [
@@ -249,7 +213,6 @@
     "collection_list_CwHkVk",
     "featured_collection",
     "image_with_text_YQAMNF",
-    "rich_text_YFywJi",
     "custom_liquid_HxnxQV",
     "custom_liquid_PjWnmt"
   ]
