@@ -733,7 +733,8 @@ p {
   font-weight: 400;
   margin: 0;
   font-family: 'Lato', sans-serif;
-  color: var(--color-text);
+  color: var(--color-foreground);
+  letter-spacing: 0;
 }
 
 .hxxl {
