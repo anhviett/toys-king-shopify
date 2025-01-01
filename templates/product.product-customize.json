@@ -131,10 +131,11 @@
         "row_DHxQKL": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.image_text_2.value.photo.value }}",
+            "caption": "",
+            "heading": "Engaging, Educational, and Durable Toy Set 🧩",
+            "text": "<p>This toy set offers hours of entertainment, encouraging <strong>creativity and critical thinking</strong> while enhancing hand-eye coordination.</p><p>Designed with <strong>high-quality</strong>, <strong>durable ABS plastic</strong>, it is safe for children and built to last, making it a <strong>great long-term investment</strong> that can be passed down through generations.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
