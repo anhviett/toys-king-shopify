@@ -1503,3 +1503,37 @@ a.product__text {
 .product-form__input--pill input[type='radio']:checked + label {
   border: 1px solid #253d4e;
 }
+
+.sub-container .rapi-header-title {
+  position: relative;
+  font-style: normal;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  font-family: 'Chewy';
+}
+
+.rapi-header-title::before {
+  content: "";
+  flex-grow: 1;
+  height: 2px;
+  background-color: rgba(0, 0, 0, .3);
+  position: absolute;
+  left: 0;
+  width: 34%;
+  top: 50%;
+}
+
+.rapi-header-title::after {
+  content: "";
+  flex-grow: 1;
+  height: 2px;
+  background-color: rgba(0, 0, 0, .3);
+  position: absolute;
+  right: 0;
+  width: 34%;
+  top: 50%;
+}
+
+.product__tax {
+  display: none;
+}
