@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -93,7 +86,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "variant_picker_p8F7A7",
         "quantity_selector_eKibaE",
