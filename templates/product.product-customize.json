@@ -114,52 +114,64 @@
         "padding_bottom": 52
       }
     },
-    "collapsible_content_jzigbJ": {
-      "type": "collapsible-content",
+    "multirow_EtJ9dz": {
+      "type": "multirow",
       "blocks": {
-        "collapsible_row_Mg3NK8": {
-          "type": "collapsible_row",
+        "row_bqb8Tn": {
+          "type": "row",
           "settings": {
-            "heading": "Building Blocks of Creativity",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
+            "image": "{{ product.metafields.custom.collapsible_custom.value.photo.value }}",
+            "caption": "4.8/5 based on 3,000+ purchases",
+            "heading": "Game Introduction <a href=\"https://emojipedia.org/automobile\">🚗</a>",
+            "text": "<p>Children will enjoy assembling the track by connecting the puzzle pieces to create their own unique path. This hands-on activity helps develop creativity, <strong>fine motor skills</strong>, and <strong>problem-solving abilities</strong>.</p><p>Watching the vehicle navigate the course children create helps enhance their understanding of cause and effect. It also strengthens <strong>problem-solving skills</strong>, as they observe how their track <strong>design impacts the car's movement</strong>, <strong>encouraging further exploration and creativity</strong>. 🧠</p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "collapsible_row_zGRVgA": {
-          "type": "collapsible_row",
+        "row_DHxQKL": {
+          "type": "row",
           "settings": {
-            "heading": "Art & Play Fusion",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         },
-        "collapsible_row_hTMdW4": {
-          "type": "collapsible_row",
+        "row_QhJUV4": {
+          "type": "row",
           "settings": {
-            "heading": "Interactive Fun",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_UNyD86": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Themed Adventures",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_Mg3NK8",
-        "collapsible_row_zGRVgA",
-        "collapsible_row_hTMdW4",
-        "collapsible_row_UNyD86"
+        "row_bqb8Tn",
+        "row_DHxQKL",
+        "row_QhJUV4"
       ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_jzigbJ": {
+      "type": "collapsible-content",
       "settings": {
         "caption": "",
         "heading": "",
@@ -199,6 +211,7 @@
     "main",
     "rich_text_6mVAfp",
     "rich_text_4VDrGc",
+    "multirow_EtJ9dz",
     "collapsible_content_jzigbJ",
     "related-products"
   ]
