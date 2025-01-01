@@ -20,70 +20,23 @@
           "type": "price",
           "settings": {}
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "collapsible_tab_XYDaMV": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Enhances Creativity",
-            "icon": "creativity",
-            "content": "<p>Our toys stimulate children's imagination and creativity, encouraging them to build, design, and invent new creations.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_PyAEKq": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Develops Fine Motor Skills",
-            "icon": "problem_solution",
-            "content": "<p>These toys help improve hand-eye coordination and fine motor skills as children manipulate small pieces and build structures.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_3xNLFY": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Promotes Problem-Solving",
-            "icon": "brain",
-            "content": "<p>By engaging in play, children develop critical thinking and problem-solving skills, learning to overcome challenges and find solutions.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_L3WWTr": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Encourages Social Interaction",
-            "icon": "handshake",
-            "content": "<ol><li>Our toys are perfect for group play, fostering teamwork, communication, and social skills as children collaborate and share ideas.</li></ol>",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
         "title",
         "price",
-        "buy_buttons",
         "description",
-        "collapsible_tab_XYDaMV",
-        "collapsible_tab_PyAEKq",
-        "collapsible_tab_3xNLFY",
-        "collapsible_tab_L3WWTr",
-        "share"
+        "buy_buttons"
       ],
       "custom_css": [
         ".price-item {font-style: normal; font-weight: bold; font-size: 20px;}"
