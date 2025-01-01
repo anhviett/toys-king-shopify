@@ -4168,6 +4168,10 @@ details-disclosure>details {
   justify-content: center;
 }
 
+.custom-features .feature-item .material-symbols-outlined {
+  font-size: 55px;
+}
+
 .feature-item {
   flex: 0 0 auto;
   margin-bottom: 30px;
