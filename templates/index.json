@@ -30,24 +30,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_pP8BgC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/2.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_wcBUTF": {
           "type": "slide",
           "settings": {
@@ -69,7 +51,6 @@
       },
       "block_order": [
         "slide_3Qw3QK",
-        "slide_pP8BgC",
         "slide_wcBUTF"
       ],
       "custom_css": [
