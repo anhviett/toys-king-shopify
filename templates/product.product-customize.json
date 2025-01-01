@@ -142,9 +142,10 @@
         "row_QhJUV4": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/track-race-car-ezgif.com-crop.gif",
             "caption": "",
             "heading": "Different Themes. Same Adventurous Track",
-            "text": "<p>Take your pick from an awesome array of themes: <strong>dinosaur, ocean, land, and space.<br/></strong></p><p>These themes transport kids to thrilling scenarios, sparking their imagination and supercharging their storytelling skills.<br/><br/>🦖 Dive into the world of dinosaurs and roam with the mighty T- Rex.</p><p><br/>🐟 Plunge into the depths of the ocean and discover hidden treasures beneath the waves.</p><p><br/>🌴 Embark on land exploration and conquer uncharted territories. </p><p><br/>🚀 Blast off into space and explore the cosmic wonders beyond our reach.<br/><br/>With these diverse themes, every playtime becomes an adventure like no other.</p>",
+            "text": "<p>Take your pick from an awesome array of themes: <strong>dinosaur, ocean, land, and space.</strong></p><p>These themes transport kids to thrilling scenarios, sparking their imagination and supercharging their storytelling skills.<br/>🦖 Dive into the world of dinosaurs and roam with the mighty T- Rex.<br/>🐟 Plunge into the depths of the ocean and discover hidden treasures beneath the waves.</p><p><br/>🌴 Embark on land exploration and conquer uncharted territories. </p><p><br/>🚀 Blast off into space and explore the cosmic wonders beyond our reach.<br/><br/>With these diverse themes, every playtime becomes an adventure like no other.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -218,7 +219,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
