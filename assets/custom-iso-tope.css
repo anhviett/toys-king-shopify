@@ -21,6 +21,11 @@
     border: 0;
     margin: 0 5px;
 }
+@media screen and (max-width: 989px) { 
+    .isotope-filters {
+        flex-direction: column;
+    }
+}
 .isotope-filters .filter-button:nth-child(1) {
     background: #eb1551;
 }
