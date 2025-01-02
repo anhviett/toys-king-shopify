@@ -160,10 +160,10 @@
         ".image-with-text__content {justify-content: start; padding-top: 0;}"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_image_width": "medium",
         "heading_size": "h1",
-        "text_style": "body",
+        "text_style": "subtitle",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
