@@ -22,6 +22,7 @@
         },
         "lai_product_reviews_star_rating_product_gpdrtB": {
           "type": "shopify://apps/lai-product-reviews/blocks/star_rating_product/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
+          "disabled": true,
           "settings": {
             "lai_product": ""
           }
