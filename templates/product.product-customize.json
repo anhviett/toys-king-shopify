@@ -156,6 +156,9 @@
         "row_DHxQKL",
         "row_QhJUV4"
       ],
+      "custom_css": [
+        ".image-with-text__content {justify-content: start; padding-top: 0;}"
+      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
