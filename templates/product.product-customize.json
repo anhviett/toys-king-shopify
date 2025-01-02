@@ -221,7 +221,8 @@
         "column_xQiDFN"
       ],
       "custom_css": [
-        ".multicolumn-card__image {width: 100%}"
+        ".multicolumn-card__image {width: 100%;}",
+        ".multicolumn.background-primary .multicolumn-card {background-color: #fff}"
       ],
       "settings": {
         "title": "",
