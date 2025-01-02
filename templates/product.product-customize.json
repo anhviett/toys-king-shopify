@@ -161,7 +161,8 @@
         ".image-with-text__text {font-size: 12px; width: 100%; text-align: center;}",
         "h2.image-with-text__heading.h1.rte {text-align: center; font-weight: bold; width: 100%;}",
         ".multirow__inner {row-gap: 100px;}",
-        ".media.media--transparent.media--adapt {width: 100%; height: 100%; padding-bottom: 0 !important;}"
+        ".media.media--transparent.media--adapt {width: 100%; height: 100%; padding-bottom: 0 !important;}",
+        ".media.media--transparent.media--adapt {padding-bottom: 0 !important;}"
       ],
       "settings": {
         "image_height": "small",
