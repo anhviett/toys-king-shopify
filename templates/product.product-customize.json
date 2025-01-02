@@ -273,6 +273,7 @@
       "block_order": [
         "lai_product_reviews_lai_product_section_P4ij8k"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
