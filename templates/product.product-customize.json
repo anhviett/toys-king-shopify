@@ -158,7 +158,8 @@
       ],
       "custom_css": [
         ".image-with-text__content {justify-content: start; padding-top: 0;}",
-        ".image-with-text__text {font-size: 12px;}"
+        ".image-with-text__text {font-size: 12px;}",
+        "h2.image-with-text__heading.h1.rte {text-align: center}"
       ],
       "settings": {
         "image_height": "small",
