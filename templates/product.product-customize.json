@@ -157,7 +157,8 @@
         "row_QhJUV4"
       ],
       "custom_css": [
-        ".image-with-text__content {justify-content: start; padding-top: 0;}"
+        ".image-with-text__content {justify-content: start; padding-top: 0;}",
+        ".image-with-text__text {font-size: 12px;}"
       ],
       "settings": {
         "image_height": "small",
