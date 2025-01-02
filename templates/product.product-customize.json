@@ -158,7 +158,7 @@
       ],
       "custom_css": [
         ".image-with-text__content {justify-content: start; padding-top: 0;}",
-        ".image-with-text__text {font-size: 12px; width: 100%; text-align:center;}",
+        ".image-with-text__text {font-size: 12px; width: 100%; text-align: center;}",
         "h2.image-with-text__heading.h1.rte {text-align: center; font-weight: bold; width: 100%;}",
         ".multirow__inner {row-gap: 100px;}"
       ],
@@ -184,7 +184,7 @@
         "column_wGzhpg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/71yJzxgm_1L._AC_UF1000_1000_QL80.jpg",
+            "image": "{{ product.metafields.custom.multicolumn_1.value.photo.value }}",
             "title": "",
             "text": "",
             "link_label": "",
@@ -194,7 +194,7 @@
         "column_3XJgji": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/71OPIFZr4XL._AC_SL1500.jpg",
+            "image": "{{ product.metafields.custom.multicolumn_image_3.value.photo.value }}",
             "title": "",
             "text": "",
             "link_label": "",
@@ -204,7 +204,7 @@
         "column_xQiDFN": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/PuzzleRacerCarTrackSet-kidsgame-puzzlegame-creativity-criticalthinking-cuddlymama-racing-learningand.jpg",
+            "image": "{{ product.metafields.custom.multicolumn_image_2.value.photo.value }}",
             "title": "",
             "text": "",
             "link_label": "",
