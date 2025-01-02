@@ -220,6 +220,9 @@
         "column_3XJgji",
         "column_xQiDFN"
       ],
+      "custom_css": [
+        ".multicolumn-card__image {width: 100%}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
