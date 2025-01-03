@@ -180,7 +180,7 @@
         ".image-with-text__text {font-size: 12px; width: 100%; text-align: center;}",
         "h2.image-with-text__heading.h1.rte {text-align: center; font-weight: bold; width: 100%;}",
         ".multirow__inner {row-gap: 100px;}",
-        ".image-with-text__content {display: block !important;}"
+        ".image-with-text__content {display: block !important; text-align: center;}"
       ],
       "settings": {
         "image_height": "small",
