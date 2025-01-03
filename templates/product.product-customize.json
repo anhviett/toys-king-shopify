@@ -16,15 +16,15 @@
           "type": "title",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "lai_product_reviews_star_rating_product_XY7Q7L": {
           "type": "shopify://apps/lai-product-reviews/blocks/star_rating_product/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
           "settings": {
             "lai_product": ""
           }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
         },
         "description": {
           "type": "description",
@@ -40,8 +40,8 @@
       },
       "block_order": [
         "title",
-        "price",
         "lai_product_reviews_star_rating_product_XY7Q7L",
+        "price",
         "description",
         "buy_buttons"
       ],
