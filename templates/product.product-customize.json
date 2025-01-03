@@ -16,12 +16,6 @@
           "type": "title",
           "settings": {}
         },
-        "lai_product_reviews_star_rating_product_RHD4Tq": {
-          "type": "shopify://apps/lai-product-reviews/blocks/star_rating_product/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
-          "settings": {
-            "lai_product": ""
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
@@ -40,7 +34,6 @@
       },
       "block_order": [
         "title",
-        "lai_product_reviews_star_rating_product_RHD4Tq",
         "price",
         "description",
         "buy_buttons"
@@ -169,7 +162,7 @@
         "h2.image-with-text__heading.h1.rte {text-align: center; font-weight: bold; width: 100%;}",
         ".multirow__inner {row-gap: 100px;}",
         ".media.media--transparent.media--adapt {width: 100%; height: 100%; padding-bottom: 0 !important;}",
-        ".multicolumn-list__item .media--adapt .multicolumn-card__image {width: 100% !impo;}",
+        ".multicolumn-list__item .media--adapt .multicolumn-card__image {width: 100%;}",
         ".media--transparent {background-color: #fff;}"
       ],
       "settings": {
@@ -227,10 +220,6 @@
         "column_3XJgji",
         "column_xQiDFN"
       ],
-      "custom_css": [
-        ".multicolumn-card__image {width: 100%;}",
-        ".multicolumn.background-primary .multicolumn-card {background: #fff;}"
-      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -265,24 +254,6 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "17357948281bb8116b": {
-      "type": "apps",
-      "blocks": {
-        "lai_product_reviews_lai_product_section_P4ij8k": {
-          "type": "shopify://apps/lai-product-reviews/blocks/lai-product-section/cad3c6c6-329e-4416-ba74-b79359b5b6e1",
-          "settings": {
-            "lai_product": "",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "lai_product_reviews_lai_product_section_P4ij8k"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -291,7 +262,6 @@
     "rich_text_4VDrGc",
     "multirow_EtJ9dz",
     "multicolumn_4FDxne",
-    "related-products",
-    "17357948281bb8116b"
+    "related-products"
   ]
 }

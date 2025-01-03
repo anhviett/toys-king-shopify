@@ -5,6 +5,10 @@
   color: rgb(var(--color-foreground));
 }
 
+.price .price__container {
+  display: block;
+}
+
 .price > * {
   display: inline-block;
   vertical-align: top;
