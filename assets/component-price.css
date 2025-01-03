@@ -5,8 +5,8 @@
   color: rgb(var(--color-foreground));
 }
 
-.price .price__container {
-  display: block;
+.product__info-wrapper .price, .product__info-wrapper .price .price__container {
+  display: block !important;
 }
 
 .price > * {
