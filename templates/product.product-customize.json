@@ -237,6 +237,9 @@
         "column_3XJgji",
         "column_xQiDFN"
       ],
+      "custom_css": [
+        ".media {padding-bottom: 100%;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
