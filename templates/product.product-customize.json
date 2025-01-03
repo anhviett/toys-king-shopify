@@ -176,14 +176,13 @@
         "row_mKMtWp"
       ],
       "custom_css": [
-        ".image-with-text__content {justify-content: start; padding-top: 0;}",
+        "image-with-text__content.image-with-text__content {justify-content: start; padding-top: 0;}",
         ".image-with-text__text {font-size: 12px; width: 100%; text-align: center;}",
         "h2.image-with-text__heading.h1.rte {text-align: center; font-weight: bold; width: 100%;}",
         ".multirow__inner {row-gap: 100px;}",
         ".media.media--transparent.media--adapt {width: 100%; height: 100%; padding-bottom: 0 !important;}",
         ".multicolumn-list__item .media--adapt .multicolumn-card__image {width: 100%;}",
-        ".media--transparent {background-color: #fff;}",
-        ". {display: block !important;}"
+        ".image-with-text__content {display: block !important;}"
       ],
       "settings": {
         "image_height": "small",
