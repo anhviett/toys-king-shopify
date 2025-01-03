@@ -156,12 +156,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_mKMtWp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/71OPIFZr4XL._AC_SL1500.jpg",
+            "caption": "",
+            "heading": "Fun, Learning, and Unforgettable Memories Await!",
+            "text": "<p>As you've probably realized by now-the Puzzlepacer is not just any \"<em>toy</em>\" but a <strong>whole lot more!</strong><br/><br/>Designed for <strong>kids aged 3 and up</strong>, it's the perfect choice for birthdays, Christmas, and all those special moments.<br/><br/>With PuzzleRacer, it's not just about fun - it's an <strong>investment in learning, quality family time and unforgettable memories. </strong></p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections"
+          }
         }
       },
       "block_order": [
         "row_bqb8Tn",
         "row_DHxQKL",
-        "row_QhJUV4"
+        "row_QhJUV4",
+        "row_mKMtWp"
       ],
       "custom_css": [
         ".image-with-text__content {justify-content: start; padding-top: 0;}",
