@@ -238,7 +238,8 @@
         "column_xQiDFN"
       ],
       "custom_css": [
-        ".media {padding-bottom: 100% !important;}"
+        ".media {padding-bottom: 100% !important;}",
+        ".multicolumn-card{background: #fff}"
       ],
       "settings": {
         "title": "",
