@@ -238,7 +238,7 @@
         "column_xQiDFN"
       ],
       "custom_css": [
-        ".media {padding-bottom: 100%;}"
+        ".media {padding-bottom: 100% !important;}"
       ],
       "settings": {
         "title": "",
