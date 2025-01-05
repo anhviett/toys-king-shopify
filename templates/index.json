@@ -139,6 +139,60 @@
         "padding_bottom": 56
       }
     },
+    "featured_product_aBUrqx": {
+      "type": "featured-product",
+      "blocks": {
+        "title_4MwKeb": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_GiQmKw": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_G3PfqB": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_UVhjmR": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_zDLKad": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "title_4MwKeb",
+        "price_GiQmKw",
+        "variant_picker_G3PfqB",
+        "quantity_selector_UVhjmR",
+        "buy_buttons_zDLKad"
+      ],
+      "settings": {
+        "product": "puzzle-racer-kids-car-track-set-plastic-floor-puzzles-for-3-4-5-6-year-old-boys-montessori-toys-brain-toys-2024-new",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_YQAMNF": {
       "type": "image-with-text",
       "blocks": {
@@ -212,6 +266,7 @@
     "slideshow_LeJEXR",
     "collection_list_CwHkVk",
     "featured_collection",
+    "featured_product_aBUrqx",
     "image_with_text_YQAMNF",
     "custom_liquid_HxnxQV",
     "custom_liquid_PjWnmt"
