@@ -159,10 +159,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector_UVhjmR": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons_zDLKad": {
           "type": "buy_buttons",
           "settings": {
@@ -175,7 +171,6 @@
         "title_4MwKeb",
         "price_GiQmKw",
         "variant_picker_G3PfqB",
-        "quantity_selector_UVhjmR",
         "buy_buttons_zDLKad"
       ],
       "settings": {
